@@ -1,0 +1,16 @@
+{
+    "factory": {
+        "initialOwner": "0xB0B0aBa123050B37cCB4d5CA6F7455A42F53dCCc"
+    },
+    "vesting": {
+        "test-1": {
+            "token": "0xa1CF5786c6ceC9E8D0BbACEdF2cc98dAe4614363",
+            "claimant": "0xB0B0aBa123050B37cCB4d5CA6F7455A42F53dCCc",
+            "cliffDurationSeconds": 2592000,
+            "vestingDurationSeconds": 15552000,
+            "tgeTime": 1708024936,
+            "tgePercentageUnscaled": 10,
+            "totalAmountUnscaled": 1000
+        }
+    }
+}
