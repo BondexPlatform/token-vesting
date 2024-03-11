@@ -18,7 +18,7 @@ import {IVesting} from "./interfaces/IVesting.sol";
 contract Vesting is IVesting, StorageVesting, Initializable, ERC165 {
     using SafeERC20 for IERC20;
 
-    uint8 public constant PERCENTAGE_DECIMALS = 4;
+    uint256 public constant PERCENTAGE_SCALE_FACTOR = 1e4;
 
     /// @custom:oz-upgrades-unsafe-allow constructor
     constructor() {
@@ -39,12 +39,15 @@ contract Vesting is IVesting, StorageVesting, Initializable, ERC165 {
 
     /// @notice Initializes the contract with the given config
     /// Reverts if:
+    ///     - the token is the zero address
     ///     - the claimant is the zero address
     ///     - the vesting duration is 0
     ///     - the vesting would already be over
     ///     - the tge percentage is greater than 100%
     ///     - the total amount is 0
     /// @dev if tgeTime is 0, it will be set to the current block timestamp
+    /// @dev the contract allows setting the vesting tgeTime in the past to allow the flexibility of deploying
+    /// the vesting contracts after the TGE
     function __Vesting_init_unchained(
         VestingConfig memory config
     ) internal onlyInitializing {
@@ -74,7 +77,7 @@ contract Vesting is IVesting, StorageVesting, Initializable, ERC165 {
             revert Vesting_InvalidConfig("vesting over");
         }
 
-        if (config.tgePercentage > 100 * (10 ** PERCENTAGE_DECIMALS)) {
+        if (config.tgePercentage > 100 * PERCENTAGE_SCALE_FACTOR) {
             revert Vesting_InvalidConfig("tgePercentage");
         }
 
@@ -129,7 +132,7 @@ contract Vesting is IVesting, StorageVesting, Initializable, ERC165 {
             uint256 tgeAmount = ($.config.totalAmount *
                 $.config.tgePercentage) /
                 100 /
-                (10 ** PERCENTAGE_DECIMALS);
+                PERCENTAGE_SCALE_FACTOR;
 
             totalClaimable += tgeAmount;
             amountExcludingTGE -= tgeAmount;
@@ -141,7 +144,6 @@ contract Vesting is IVesting, StorageVesting, Initializable, ERC165 {
                 $.config.cliffDuration;
 
             if (timePassed >= $.config.vestingDuration) {
-                timePassed = $.config.vestingDuration;
                 totalClaimable = $.config.totalAmount;
             } else {
                 uint256 vestedAmount = (amountExcludingTGE * timePassed) /

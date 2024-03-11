@@ -101,12 +101,12 @@
     },
     {
         "inputs": [],
-        "name": "PERCENTAGE_DECIMALS",
+        "name": "PERCENTAGE_SCALE_FACTOR",
         "outputs": [
             {
-                "internalType": "uint8",
+                "internalType": "uint256",
                 "name": "",
-                "type": "uint8"
+                "type": "uint256"
             }
         ],
         "stateMutability": "view",

@@ -37,7 +37,7 @@ describe("Vesting", () => {
                 cliffDuration: time.duration.days(30),
                 vestingDuration: time.duration.days(365),
                 tgeTime: ts + time.duration.days(7),
-                tgePercentage: eX(10, await vesting.PERCENTAGE_DECIMALS()),
+                tgePercentage: 10n * (await vesting.PERCENTAGE_SCALE_FACTOR()),
                 totalAmount: e18(1000),
             });
 
@@ -64,7 +64,7 @@ describe("Vesting", () => {
                 cliffDuration: time.duration.days(30),
                 vestingDuration: time.duration.days(365),
                 tgeTime: ts + time.duration.days(7),
-                tgePercentage: eX(10, await vesting.PERCENTAGE_DECIMALS()),
+                tgePercentage: 10n * (await vesting.PERCENTAGE_SCALE_FACTOR()),
                 totalAmount: e18(1000),
             });
 
@@ -96,7 +96,8 @@ describe("Vesting", () => {
             await expect(
                 vesting.initialize({
                     ...cfg,
-                    tgePercentage: eX(200, await vesting.PERCENTAGE_DECIMALS()),
+                    tgePercentage:
+                        200n * (await vesting.PERCENTAGE_SCALE_FACTOR()),
                 }),
             )
                 .to.be.revertedWithCustomError(vesting, "Vesting_InvalidConfig")
@@ -119,7 +120,7 @@ describe("Vesting", () => {
                 cliffDuration: time.duration.days(30),
                 vestingDuration: time.duration.days(365),
                 tgeTime: ts + time.duration.days(7),
-                tgePercentage: eX(10, await vesting.PERCENTAGE_DECIMALS()),
+                tgePercentage: 10n * (await vesting.PERCENTAGE_SCALE_FACTOR()),
                 totalAmount: e18(1000),
             });
 
@@ -142,7 +143,7 @@ describe("Vesting", () => {
                 claimant: deployer.address,
                 cliffDuration: time.duration.days(30),
                 vestingDuration: time.duration.days(365),
-                tgePercentage: eX(10, await vesting.PERCENTAGE_DECIMALS()),
+                tgePercentage: 10n * (await vesting.PERCENTAGE_SCALE_FACTOR()),
                 totalAmount: e18(1000),
             });
 
