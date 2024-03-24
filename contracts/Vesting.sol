@@ -123,20 +123,12 @@ contract Vesting is IVesting, StorageVesting, Initializable, ERC165 {
             return 0;
         }
 
-        uint256 amountClaimed = $.amountClaimed;
+        // when tgePercentage is 0, tgeAmount is 0
+        uint256 tgeAmount = ($.config.totalAmount * $.config.tgePercentage) /
+            (100 * PERCENTAGE_SCALE_FACTOR);
 
-        uint256 totalClaimable = 0;
-        uint256 amountExcludingTGE = $.config.totalAmount;
-
-        if ($.config.tgePercentage != 0) {
-            uint256 tgeAmount = ($.config.totalAmount *
-                $.config.tgePercentage) /
-                100 /
-                PERCENTAGE_SCALE_FACTOR;
-
-            totalClaimable += tgeAmount;
-            amountExcludingTGE -= tgeAmount;
-        }
+        uint256 totalClaimable = tgeAmount;
+        uint256 amountExcludingTGE = $.config.totalAmount - tgeAmount;
 
         if ($.config.tgeTime + $.config.cliffDuration < block.timestamp) {
             uint256 timePassed = block.timestamp -
@@ -153,7 +145,7 @@ contract Vesting is IVesting, StorageVesting, Initializable, ERC165 {
             }
         }
 
-        return totalClaimable - amountClaimed;
+        return totalClaimable - $.amountClaimed;
     }
 
     function version() public pure returns (string memory) {

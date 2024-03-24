@@ -63,6 +63,22 @@ describe("VestingFactory", () => {
                     .setImplementation(await newImpl.getAddress()),
             ).to.not.be.reverted;
         });
+
+        it("emits event", async () => {
+            const { factory, deployer, impl } =
+                await loadFixture(deployVestingFactory);
+
+            const newImpl = await ethers.deployContract("Vesting");
+            await newImpl.waitForDeployment();
+
+            await expect(
+                factory
+                    .connect(deployer)
+                    .setImplementation(await newImpl.getAddress()),
+            )
+                .to.emit(factory, "ImplementationSet")
+                .withArgs(await newImpl.getAddress());
+        });
     });
 
     describe("deploy", () => {
@@ -119,6 +135,65 @@ describe("VestingFactory", () => {
                 vestingContracts[0],
             );
             expect((await vesting.config()).claimant).to.be.equal(u1.address);
+        });
+
+        it("returns deployed address", async () => {
+            const { factory, deployer, u1, impl } =
+                await loadFixture(deployVestingFactory);
+
+            const token = await ethers.deployContract("ERC20Mock", [18]);
+
+            const ts = await time.latest();
+
+            const addr = await factory.connect(deployer).deploy.staticCall(<
+                IVesting.VestingConfigStruct
+            >{
+                token: await token.getAddress(),
+                claimant: u1.address,
+                cliffDuration: 0,
+                vestingDuration: time.duration.days(100),
+                tgeTime: ts + time.duration.days(7),
+                tgePercentage: 0n,
+                totalAmount: e18(1000),
+            });
+
+            expect(addr).to.be.properAddress;
+            expect(addr).to.not.equal(ethers.ZeroAddress);
+        });
+
+        it("emits event", async () => {
+            const { factory, deployer, u1, impl } =
+                await loadFixture(deployVestingFactory);
+
+            const token = await ethers.deployContract("ERC20Mock", [18]);
+
+            const ts = await time.latest();
+
+            const addr = await factory.connect(deployer).deploy.staticCall(<
+                IVesting.VestingConfigStruct
+            >{
+                token: await token.getAddress(),
+                claimant: u1.address,
+                cliffDuration: 0,
+                vestingDuration: time.duration.days(100),
+                tgeTime: ts + time.duration.days(7),
+                tgePercentage: 0n,
+                totalAmount: e18(1000),
+            });
+
+            await expect(
+                factory.connect(deployer).deploy(<IVesting.VestingConfigStruct>{
+                    token: await token.getAddress(),
+                    claimant: u1.address,
+                    cliffDuration: 0,
+                    vestingDuration: time.duration.days(100),
+                    tgeTime: ts + time.duration.days(7),
+                    tgePercentage: 0n,
+                    totalAmount: e18(1000),
+                }),
+            )
+                .to.emit(factory, "VestingDeployed")
+                .withArgs(u1.address, addr);
         });
     });
 });
