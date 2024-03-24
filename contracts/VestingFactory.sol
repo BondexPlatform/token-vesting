@@ -22,6 +22,9 @@ contract VestingFactory is Ownable, ERC165 {
 
     error VestingFactory_InvalidImplementation();
 
+    event ImplementationSet(address indexed implementation);
+    event VestingDeployed(address indexed claimant, address indexed vesting);
+
     constructor(address impl, address initialOwner) Ownable(initialOwner) {
         _setImplementation(impl);
     }
@@ -46,6 +49,8 @@ contract VestingFactory is Ownable, ERC165 {
 
         deployments[config.claimant].push(vesting);
 
+        emit VestingDeployed(config.claimant, vesting);
+
         return vesting;
     }
 
@@ -68,5 +73,7 @@ contract VestingFactory is Ownable, ERC165 {
         }
 
         vestingImplementation = impl;
+
+        emit ImplementationSet(impl);
     }
 }
