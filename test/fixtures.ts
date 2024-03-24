@@ -48,7 +48,7 @@ export async function deployVestingInitialized() {
             cliffDuration: time.duration.days(30),
             vestingDuration: time.duration.days(365),
             tgeTime: ts + time.duration.days(7),
-            tgePercentage: eX(10, await ctr.vesting.PERCENTAGE_DECIMALS()),
+            tgePercentage: 10n * (await ctr.vesting.PERCENTAGE_SCALE_FACTOR()),
             totalAmount: e18(1000),
         }),
     );

@@ -15,7 +15,7 @@ interface IVesting {
         uint256 vestingDuration;
         // start time of the vesting; defaults to the timestamp of the block where the contract is initialized
         uint256 tgeTime;
-        // percentage of the total amount that will be vested at the TGE
+        // percentage of the total amount that will be vested and immediately available for claiming at the TGE
         uint256 tgePercentage;
         uint256 totalAmount;
     }
