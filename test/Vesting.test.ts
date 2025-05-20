@@ -11,6 +11,30 @@ import { ethers } from "hardhat";
 import { IVesting } from "../typechain-types/contracts/Vesting";
 
 describe("Vesting", () => {
+    it("implementation disables initializers on deploy", async () => {
+        const [deployer] = await ethers.getSigners();
+
+        const ts = await time.latest();
+
+        const vesting = await ethers.deployContract("Vesting");
+        const token = await ethers.deployContract("ERC20Mock", [18]);
+
+        await expect(
+            vesting.initialize(
+                _config({
+                    token: await token.getAddress(),
+                    claimant: deployer.address,
+                    cliffDuration: time.duration.days(30),
+                    vestingDuration: time.duration.days(365),
+                    tgeTime: ts + time.duration.days(7),
+                    tgePercentage:
+                        10n * (await vesting.PERCENTAGE_SCALE_FACTOR()),
+                    totalAmount: e18(1000),
+                }),
+            ),
+        ).to.be.revertedWithCustomError(vesting, "InvalidInitialization");
+    });
+
     it("can be deployed", async () => {
         const { vesting } = await loadFixture(deployVesting);
 
@@ -164,6 +188,19 @@ describe("Vesting", () => {
 
             expect(ts).to.be.lt(startTime);
             expect(await vesting.getClaimableAmount()).to.equal(0);
+        });
+
+        it("returns tgePercentage of totalAmount at exactly tgeTime", async () => {
+            const { vesting, startTime } = await loadFixture(
+                deployVestingInitialized,
+            );
+
+            await time.setNextBlockTimestamp(startTime);
+            await mine();
+
+            expect(await vesting.getClaimableAmount()).to.equal(
+                (await vesting.config()).totalAmount / 10n,
+            );
         });
 
         it("returns 0 if tgePercentage is 0 and after tgeTime", async () => {
@@ -324,6 +361,10 @@ describe("Vesting", () => {
             expect(await token.balanceOf(u1.address)).to.be.closeTo(
                 e18(134.52),
                 e18(0.001),
+            );
+
+            expect(await vesting.amountClaimed()).to.equal(
+                await token.balanceOf(u1.address),
             );
         });
 
