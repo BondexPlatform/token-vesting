@@ -24,6 +24,25 @@
         "anonymous": false,
         "inputs": [
             {
+                "indexed": true,
+                "internalType": "address",
+                "name": "previousClaimant",
+                "type": "address"
+            },
+            {
+                "indexed": true,
+                "internalType": "address",
+                "name": "newClaimant",
+                "type": "address"
+            }
+        ],
+        "name": "ClaimantChanged",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
                 "indexed": false,
                 "internalType": "uint256",
                 "name": "amount",
@@ -62,6 +81,11 @@
                     {
                         "internalType": "contract IERC20",
                         "name": "token",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "initialOwner",
                         "type": "address"
                     },
                     {
@@ -123,6 +147,11 @@
                     {
                         "internalType": "contract IERC20",
                         "name": "token",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "initialOwner",
                         "type": "address"
                     },
                     {

@@ -62,13 +62,17 @@ export async function deployVestingFactory() {
     const impl = await ethers.deployContract("Vesting");
     await impl.waitForDeployment();
 
-    const [deployer, u1, u2] = await ethers.getSigners();
+    const [deployer, u1, u2, u3] = await ethers.getSigners();
+
+    const token = await ethers.deployContract("ERC20Mock", [18]);
+    await token.waitForDeployment();
 
     const factory = await ethers.deployContract("VestingFactory", [
         await impl.getAddress(),
         deployer.address,
+        await token.getAddress(),
     ]);
     await factory.waitForDeployment();
 
-    return { factory, deployer, u1, u2, impl };
+    return { factory, deployer, u1, u2, u3, impl, token };
 }

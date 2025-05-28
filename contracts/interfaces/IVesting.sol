@@ -6,6 +6,8 @@ import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 interface IVesting {
     struct VestingConfig {
         IERC20 token;
+        // address of the owner of the vesting contract
+        address initialOwner;
         // address that will be able to claim the vested tokens
         address claimant;
         // duration of the cliff, in seconds, during which no tokens will be vested
@@ -25,6 +27,10 @@ interface IVesting {
     error Vesting_NothingToClaim();
 
     event Claimed(uint256 amount);
+    event ClaimantChanged(
+        address indexed previousClaimant,
+        address indexed newClaimant
+    );
 
     function initialize(VestingConfig memory config) external;
 
