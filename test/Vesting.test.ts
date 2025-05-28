@@ -8,7 +8,6 @@ import { expect } from "chai";
 import { _config } from "./helpers/structs";
 import { e18, eX } from "./helpers/scale";
 import { ethers } from "hardhat";
-import { IVesting } from "../typechain-types/contracts/Vesting";
 
 describe("Vesting", () => {
     it("implementation disables initializers on deploy", async () => {
@@ -45,7 +44,7 @@ describe("Vesting", () => {
     it("supportsInterface returns true for IVesting", async () => {
         const { vesting } = await loadFixture(deployVesting);
 
-        expect(await vesting.supportsInterface("0xc51041d1")).to.be.true;
+        expect(await vesting.supportsInterface("0xeea8c01c")).to.be.true;
     });
 
     describe("initialize", () => {
@@ -175,6 +174,48 @@ describe("Vesting", () => {
 
             const actualConfig = await vesting.config();
             expect(actualConfig.tgeTime).to.be.equal(await time.latest());
+        });
+
+        it("can initialize without an owner", async () => {
+            const { vesting, token, u1 } = await loadFixture(deployVesting);
+
+            const ts = await time.latest();
+
+            const cfg = _config({
+                token: await token.getAddress(),
+                claimant: u1,
+                cliffDuration: time.duration.days(30),
+                vestingDuration: time.duration.days(365),
+                tgeTime: ts + time.duration.days(7),
+                tgePercentage: 10n * (await vesting.PERCENTAGE_SCALE_FACTOR()),
+                totalAmount: e18(1000),
+                initialOwner: ethers.ZeroAddress,
+            });
+
+            await vesting.initialize(cfg);
+
+            expect(await vesting.owner()).to.equal(ethers.ZeroAddress);
+        });
+
+        it("can initialize with an owner", async () => {
+            const { vesting, token, u1, u2 } = await loadFixture(deployVesting);
+
+            const ts = await time.latest();
+
+            const cfg = _config({
+                token: await token.getAddress(),
+                claimant: u1,
+                cliffDuration: time.duration.days(30),
+                vestingDuration: time.duration.days(365),
+                tgeTime: ts + time.duration.days(7),
+                tgePercentage: 10n * (await vesting.PERCENTAGE_SCALE_FACTOR()),
+                totalAmount: e18(1000),
+                initialOwner: u2,
+            });
+
+            await vesting.initialize(cfg);
+
+            expect(await vesting.owner()).to.equal(u2);
         });
     });
 
@@ -380,6 +421,80 @@ describe("Vesting", () => {
             await expect(vesting.connect(u1).claim())
                 .to.emit(vesting, "Claimed")
                 .withArgs("117260273972602739726");
+        });
+    });
+
+    describe("owner functions", () => {
+        it("changeClaimant reverts if not called by owner, works otherwise", async () => {
+            const { vesting, u1, u2, token } = await loadFixture(deployVesting);
+
+            const ts = await time.latest();
+
+            await vesting.initialize(
+                _config({
+                    token: await token.getAddress(),
+                    claimant: u1.address,
+                    cliffDuration: time.duration.days(30),
+                    vestingDuration: time.duration.days(365),
+                    tgeTime: ts + time.duration.days(7),
+                    tgePercentage:
+                        10n * (await vesting.PERCENTAGE_SCALE_FACTOR()),
+                    totalAmount: e18(1000),
+                    initialOwner: u2.address,
+                }),
+            );
+
+            await expect(
+                vesting.connect(u1).changeClaimant(u2.address),
+            ).to.be.revertedWithCustomError(
+                vesting,
+                "OwnableUnauthorizedAccount",
+            );
+
+            await expect(vesting.connect(u2).changeClaimant(ethers.ZeroAddress))
+                .to.be.revertedWithCustomError(vesting, "Vesting_InvalidConfig")
+                .withArgs("newClaimant");
+
+            await expect(vesting.connect(u2).changeClaimant(u2.address))
+                .to.emit(vesting, "ClaimantChanged")
+                .withArgs(u1.address, u2.address);
+
+            expect((await vesting.config()).claimant).to.equal(u2.address);
+        });
+
+        it("ownership can be renounced", async () => {
+            const { vesting, u1, u2, token } = await loadFixture(deployVesting);
+
+            const ts = await time.latest();
+
+            await vesting.initialize(
+                _config({
+                    token: await token.getAddress(),
+                    claimant: u1.address,
+                    cliffDuration: time.duration.days(30),
+                    vestingDuration: time.duration.days(365),
+                    tgeTime: ts + time.duration.days(7),
+                    tgePercentage:
+                        10n * (await vesting.PERCENTAGE_SCALE_FACTOR()),
+                    totalAmount: e18(1000),
+                    initialOwner: u2.address,
+                }),
+            );
+
+            expect(await vesting.owner()).to.equal(u2.address);
+
+            await expect(vesting.connect(u2).renounceOwnership())
+                .to.emit(vesting, "OwnershipTransferred")
+                .withArgs(u2.address, ethers.ZeroAddress);
+
+            expect(await vesting.owner()).to.equal(ethers.ZeroAddress);
+
+            await expect(
+                vesting.connect(u2).changeClaimant(u2),
+            ).to.be.revertedWithCustomError(
+                vesting,
+                "OwnableUnauthorizedAccount",
+            );
         });
     });
 });

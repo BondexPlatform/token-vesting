@@ -12,6 +12,7 @@ export function _config(
         tgeTime: 0,
         tgePercentage: 0n,
         totalAmount: 0n,
+        initialOwner: ethers.ZeroAddress,
         ...cfg,
     };
 }

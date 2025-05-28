@@ -10,14 +10,46 @@
                 "internalType": "address",
                 "name": "initialOwner",
                 "type": "address"
+            },
+            {
+                "internalType": "contract IERC20",
+                "name": "token_",
+                "type": "address"
             }
         ],
         "stateMutability": "nonpayable",
         "type": "constructor"
     },
     {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "target",
+                "type": "address"
+            }
+        ],
+        "name": "AddressEmptyCode",
+        "type": "error"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "account",
+                "type": "address"
+            }
+        ],
+        "name": "AddressInsufficientBalance",
+        "type": "error"
+    },
+    {
         "inputs": [],
         "name": "ERC1167FailedCreateClone",
+        "type": "error"
+    },
+    {
+        "inputs": [],
+        "name": "FailedInnerCall",
         "type": "error"
     },
     {
@@ -43,8 +75,29 @@
         "type": "error"
     },
     {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "token",
+                "type": "address"
+            }
+        ],
+        "name": "SafeERC20FailedOperation",
+        "type": "error"
+    },
+    {
         "inputs": [],
         "name": "VestingFactory_InvalidImplementation",
+        "type": "error"
+    },
+    {
+        "inputs": [],
+        "name": "VestingFactory_InvalidToken",
+        "type": "error"
+    },
+    {
+        "inputs": [],
+        "name": "VestingFactory_NothingToSetup",
         "type": "error"
     },
     {
@@ -93,6 +146,12 @@
                 "internalType": "address",
                 "name": "vesting",
                 "type": "address"
+            },
+            {
+                "indexed": false,
+                "internalType": "uint256",
+                "name": "amount",
+                "type": "uint256"
             }
         ],
         "name": "VestingDeployed",
@@ -105,6 +164,11 @@
                     {
                         "internalType": "contract IERC20",
                         "name": "token",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "initialOwner",
                         "type": "address"
                     },
                     {
@@ -157,10 +221,60 @@
     {
         "inputs": [
             {
-                "internalType": "address",
-                "name": "",
-                "type": "address"
-            },
+                "components": [
+                    {
+                        "internalType": "contract IERC20",
+                        "name": "token",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "initialOwner",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "claimant",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "cliffDuration",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "vestingDuration",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "tgeTime",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "tgePercentage",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "totalAmount",
+                        "type": "uint256"
+                    }
+                ],
+                "internalType": "struct IVesting.VestingConfig[]",
+                "name": "configs",
+                "type": "tuple[]"
+            }
+        ],
+        "name": "deployBatch",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
             {
                 "internalType": "uint256",
                 "name": "",
@@ -170,9 +284,59 @@
         "name": "deployments",
         "outputs": [
             {
+                "internalType": "bool",
+                "name": "isSetupDone",
+                "type": "bool"
+            },
+            {
                 "internalType": "address",
-                "name": "",
+                "name": "claimant",
                 "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "vesting",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "amount",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "getAllDeployments",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "internalType": "bool",
+                        "name": "isSetupDone",
+                        "type": "bool"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "claimant",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "vesting",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "amount",
+                        "type": "uint256"
+                    }
+                ],
+                "internalType": "struct VestingFactory.Deployment[]",
+                "name": "",
+                "type": "tuple[]"
             }
         ],
         "stateMutability": "view",
@@ -192,6 +356,19 @@
                 "internalType": "address[]",
                 "name": "",
                 "type": "address[]"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "nextBatchIndex",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
             }
         ],
         "stateMutability": "view",
@@ -233,6 +410,19 @@
     {
         "inputs": [
             {
+                "internalType": "uint256",
+                "name": "iterations",
+                "type": "uint256"
+            }
+        ],
+        "name": "setupNextBatch",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
                 "internalType": "bytes4",
                 "name": "interfaceId",
                 "type": "bytes4"
@@ -244,6 +434,19 @@
                 "internalType": "bool",
                 "name": "",
                 "type": "bool"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "token",
+        "outputs": [
+            {
+                "internalType": "contract IERC20",
+                "name": "",
+                "type": "address"
             }
         ],
         "stateMutability": "view",
