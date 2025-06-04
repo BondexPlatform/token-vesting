@@ -2,6 +2,7 @@
 pragma solidity 0.8.24;
 
 import {Initializable} from "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
+import {OwnableUpgradeable} from "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import {SafeERC20} from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import {ERC165} from "@openzeppelin/contracts/utils/introspection/ERC165.sol";
@@ -15,7 +16,13 @@ import {IVesting} from "./interfaces/IVesting.sol";
 /// @dev Contract is intended to be used with Clones to save gas when deploying multiple vesting contracts
 /// Alternatively, it can be made upgradeable by using it with a Transparent Proxy
 /// @dev The contract assumes the tokens to distribute are held in its own balance
-contract Vesting is IVesting, StorageVesting, Initializable, ERC165 {
+contract Vesting is
+    IVesting,
+    StorageVesting,
+    Initializable,
+    OwnableUpgradeable,
+    ERC165
+{
     using SafeERC20 for IERC20;
 
     uint256 public constant PERCENTAGE_SCALE_FACTOR = 1e4;
@@ -85,6 +92,10 @@ contract Vesting is IVesting, StorageVesting, Initializable, ERC165 {
             revert Vesting_InvalidConfig("totalAmount");
         }
 
+        if (config.initialOwner != address(0)) {
+            __Ownable_init(config.initialOwner);
+        }
+
         $.config = config;
     }
 
@@ -109,6 +120,26 @@ contract Vesting is IVesting, StorageVesting, Initializable, ERC165 {
         $.config.token.safeTransfer($.config.claimant, amount);
 
         emit Claimed(amount);
+    }
+
+    /// @notice Change the claimant of the vesting contract
+    /// @param newClaimant The address of the new claimant
+    /// @dev Only the owner can call this function
+    /// @dev Emits a ClaimantChanged event
+    /// @dev The new claimant must not be the zero address
+    /// @param newClaimant The address of the new claimant
+    function changeClaimant(address newClaimant) public onlyOwner {
+        VestingStorage storage $ = _getVestingStorage();
+
+        if (newClaimant == address(0)) {
+            revert Vesting_InvalidConfig("newClaimant");
+        }
+
+        address oldClaimant = $.config.claimant;
+
+        $.config.claimant = newClaimant;
+
+        emit ClaimantChanged(oldClaimant, newClaimant);
     }
 
     /// @notice Returns the amount of tokens that can be claimed by the claimant
