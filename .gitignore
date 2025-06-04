@@ -1,5 +1,6 @@
 node_modules
 .env
+.env.enc
 coverage
 coverage.json
 typechain
@@ -10,6 +11,5 @@ cache
 artifacts
 
 .idea/
-.env
 settings/localhost
 **/.openzeppelin/unknown-*.json

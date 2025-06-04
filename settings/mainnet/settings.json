@@ -1,0 +1,9 @@
+{
+    "factory": {
+        "initialOwner": "0x3e9088e09D6BE92e6B843122776AE6b16910F51a",
+        "token": "0xBdBDBDd0c22888E63CB9098aD6D68439197CB091"
+    },
+    "vesting": {
+        "tgeTime": "1748945100"
+    }
+}

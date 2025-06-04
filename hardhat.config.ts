@@ -6,6 +6,9 @@ import "@nomicfoundation/hardhat-toolbox";
 import "hardhat-contract-sizer";
 import "hardhat-abi-exporter";
 import "@openzeppelin/hardhat-upgrades";
+import * as envEnc from "@chainlink/env-enc";
+
+envEnc.config();
 
 import "./tasks/index";
 
@@ -47,19 +50,6 @@ const config: HardhatUserConfig = {
             gasPrice: "auto",
             gasMultiplier: 1.2,
         },
-        goerli: {
-            chainId: 5,
-            url: `${
-                process.env.RPC_URL ||
-                `https://goerli.infura.io/v3/${process.env.INFURA_API_KEY}`
-            }`,
-            ...(process.env.TESTNET_PRIVATE_KEY
-                ? { accounts: [process.env.TESTNET_PRIVATE_KEY] }
-                : {}),
-            gas: "auto",
-            gasPrice: "auto",
-            gasMultiplier: 1.2,
-        },
         mainnet: {
             chainId: 1,
             url: `${
@@ -72,6 +62,16 @@ const config: HardhatUserConfig = {
             gas: "auto",
             gasPrice: "auto",
             gasMultiplier: 1.2,
+        },
+        bsc: {
+            url: "https://bsc-dataseed.binance.org/",
+            chainId: 56,
+            gas: "auto",
+            gasPrice: "auto",
+            gasMultiplier: 1.2,
+            ...(process.env.MAINNET_PRIVATE_KEY
+                ? { accounts: [process.env.MAINNET_PRIVATE_KEY] }
+                : {}),
         },
     },
 
