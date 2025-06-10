@@ -169,6 +169,32 @@ contract VestingFactory is Ownable, ERC165 {
         return deployments;
     }
 
+    function getNumberOfDeployments() external view returns (uint256) {
+        return deployments.length;
+    }
+
+    function getNextBatchDeployments(
+        uint256 iterations
+    ) external view returns (Deployment[] memory) {
+        if (nextBatchIndex == deployments.length) {
+            return new Deployment[](0);
+        }
+
+        uint256 end = nextBatchIndex + iterations;
+
+        if (end > deployments.length) {
+            end = deployments.length;
+        }
+
+        Deployment[] memory result = new Deployment[](end - nextBatchIndex);
+
+        for (uint256 i = nextBatchIndex; i < end; i++) {
+            result[i - nextBatchIndex] = deployments[i];
+        }
+
+        return result;
+    }
+
     function _setImplementation(address impl) internal {
         if (impl == address(0)) {
             revert VestingFactory_InvalidImplementation();

@@ -345,6 +345,60 @@
     {
         "inputs": [
             {
+                "internalType": "uint256",
+                "name": "iterations",
+                "type": "uint256"
+            }
+        ],
+        "name": "getNextBatchDeployments",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "internalType": "bool",
+                        "name": "isSetupDone",
+                        "type": "bool"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "claimant",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "address",
+                        "name": "vesting",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "amount",
+                        "type": "uint256"
+                    }
+                ],
+                "internalType": "struct VestingFactory.Deployment[]",
+                "name": "",
+                "type": "tuple[]"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "getNumberOfDeployments",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
                 "internalType": "address",
                 "name": "claimer",
                 "type": "address"

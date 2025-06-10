@@ -12,14 +12,18 @@ describe("VestingFactory", () => {
 
         const [deployer] = await ethers.getSigners();
 
+        const vestingFactory =
+            await ethers.getContractFactory("VestingFactory");
+        const implAddr = await impl.getAddress();
+
         await expect(
             ethers.deployContract("VestingFactory", [
-                await impl.getAddress(),
+                implAddr,
                 deployer.address,
                 ethers.ZeroAddress,
             ]),
         ).to.be.revertedWithCustomError(
-            await ethers.getContractFactory("VestingFactory"),
+            vestingFactory,
             "VestingFactory_InvalidToken",
         );
     });
@@ -324,6 +328,19 @@ describe("VestingFactory", () => {
             const tx = await factory
                 .connect(deployer)
                 .deployBatch(vestingConfigs);
+
+            expect(await factory.getNumberOfDeployments()).to.be.equal(3);
+
+            const nextBatch = await factory.getNextBatchDeployments(2);
+            expect(nextBatch.length).to.be.equal(2);
+            expect(nextBatch[0].claimant).to.be.equal(u1.address);
+            expect(nextBatch[1].claimant).to.be.equal(u2.address);
+
+            const nextBatch2 = await factory.getNextBatchDeployments(5);
+            expect(nextBatch2.length).to.be.equal(3);
+            expect(nextBatch2[0].claimant).to.be.equal(u1.address);
+            expect(nextBatch2[1].claimant).to.be.equal(u2.address);
+            expect(nextBatch2[2].claimant).to.be.equal(u3.address);
 
             const gasUsed = (await tx.wait())!.gasUsed;
 

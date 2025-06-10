@@ -1,0 +1,5 @@
+Total deployments: 2
+Deployment 0: Claimant: 0xb17F2B96d215d4CB589fA5BB58c6505f209da5d0, Amount: 130000000.0 tokens, Vesting: 0xf0558C23c8a4D7260F2Ef840Bc0adCFe3D61D9D6
+  Config: Initial Owner: 0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37, Token: 0x1036b2379F506761f237FBa7463857924Ef21Ce3, TGE Time: 1748945100, TGE Percentage: 0.0%, Cliff Duration: 2592000 seconds, Vesting Duration: 93312000 seconds, Total Amount: 130000000.0 tokens
+Deployment 1: Claimant: 0x1A7769F596890879DF7a6EeA9F4a4140e5C79bA3, Amount: 90000000.0 tokens, Vesting: 0xB3AEB6E5FCe4cC5879b9a3c00A9B87c52a3a35FC
+  Config: Initial Owner: 0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37, Token: 0x1036b2379F506761f237FBa7463857924Ef21Ce3, TGE Time: 1748945100, TGE Percentage: 0.0%, Cliff Duration: 2592000 seconds, Vesting Duration: 62208000 seconds, Total Amount: 90000000.0 tokens
