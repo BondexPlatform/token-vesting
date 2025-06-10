@@ -14,7 +14,7 @@ devScope
 devScope.task("sign", "Sign a message").setAction(async (taskArgs, hre) => {
     const [signer] = await hre.ethers.getSigners();
     const message =
-        "[Etherscan.io 03/06/2025 10:57:25] I, hereby verify that I am the owner/creator of the address [0xBdBDBDd0c22888E63CB9098aD6D68439197CB091]";
+        "[BscScan.com 05/06/2025 16:18:48] I, hereby verify that I am the owner/creator of the address [0x1036b2379F506761f237FBa7463857924Ef21Ce3]";
     const signature = await signer.signMessage(message);
 
     console.log(`Message: ${message}`);
