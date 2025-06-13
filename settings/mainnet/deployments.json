@@ -1618,5 +1618,413 @@
     "amount": "8125000.0",
     "vesting": "0x66b7C01A47C752DFA1e16277ac92ED33f236fdb4",
     "isSetupDone": true
+  },
+  {
+    "claimant": "0x8CD1FCFF16B3b15c71d3C58124492b16604Dbf20",
+    "amount": "59210.53",
+    "vesting": "0x90fD7FF1C303C83f267381BD6E7EFE0aD8945168",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xb73cF1De70499f0b30567fEa7AF40aC09D839be8",
+    "amount": "47368.42",
+    "vesting": "0x121B8D0f230A158903ceEaf324ac9c7A6FA30B34",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xEF3493D26C7be6196193EfCcA351fC6771d416d2",
+    "amount": "23684.21",
+    "vesting": "0x176709f8fdd4Bc4B6bf1838320c4B7FCABeecD71",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xe13D0E9c4676c7960E43FAae9DB0572095Ea5591",
+    "amount": "47368.42",
+    "vesting": "0x18a12fd52892f4310de85d3eBf922A3e8CF55fcc",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x5785C34dF5d07b42C7F4e529fDdEC9cf39a2a97c",
+    "amount": "23684.21",
+    "vesting": "0x67aB044bF06b2A1c0c9F10DFeAcF60F4595dfea7",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x420d71e19D5B35b42AE8D63E81afb001a24AA73f",
+    "amount": "47368.42",
+    "vesting": "0x7530490355E96D02fba9090dA52E828D8ed3f0E0",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x1CC0B8435548B10459de403df762e38b9c8E789B",
+    "amount": "23684.21",
+    "vesting": "0xc274f519d45df957086C9336CeF4405638242272",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xc5CCAd35C72b513a02d9b19F4565D5A03C248b23",
+    "amount": "11842.11",
+    "vesting": "0x32e29fD06AE3ca961A98AE6Fc944B1cB204C0fdB",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xEB0A9b2275D77e4e8E69eD99045714062c4448F2",
+    "amount": "11842.11",
+    "vesting": "0x09b5A6f430e6E5bdFe0Ad30b1aEFEE45912ac986",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xBCa29E8DC1c0959C16AFf68e8Dbc190185384375",
+    "amount": "23684.21",
+    "vesting": "0xB02C6617d851B3A457d0c11FB39001E013870aFE",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x33C456904956A273E4A9789079202d48a3Bff319",
+    "amount": "23684.21",
+    "vesting": "0xc898fc90c05E7E74F2D7fD571139081404C3FFB0",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xBdEF1c3dE04280b3f5b18116f571f9EfA434C487",
+    "amount": "35526.32",
+    "vesting": "0x9AF8Ae89882943b31ebaC1e9684aD8cd9d5470b7",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x84E772ab6f4cE150D3E3E0A48F7728aB00CE6Ae2",
+    "amount": "35526.32",
+    "vesting": "0x2ABdCE1e77B5b04FAc269C81862D5191bCd0561F",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x26157a63Bc4C6Bd48F84f9dD210FF038bb1794aB",
+    "amount": "47368.42",
+    "vesting": "0x7f068dd679Bb323E079714eE1ed471198873c925",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x68A8dB214f1cb757Bc98BDBd841EE7aa55829be8",
+    "amount": "47368.42",
+    "vesting": "0x42ad2E9CF4348a19a0C5cE3d3F530803f5639522",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xbC0596d5728Efb0940b4f40F4e1CfB21760724e9",
+    "amount": "35526.32",
+    "vesting": "0x7E32E6521CE9560C5c6276384C0f984Fe3E3e89F",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x1e87cB772516984B871C7103e4559C6593c92c1A",
+    "amount": "47368.42",
+    "vesting": "0x7b79B817290c6c7007d40f7fea72b08169C02dDb",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x2747cAb9dD336B3E9768465CD469Bdb8C3868d5d",
+    "amount": "23684.21",
+    "vesting": "0xd53A0B2e1a804e487e8176928A31082CCF700f46",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x2A1F9aCfbAeD06C3cBCD71CD07f57f9924579ad6",
+    "amount": "11842.11",
+    "vesting": "0xC1e311740fCBc5D6B1511FAA230Fd331bACA439d",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x637D2E60DA55F8fAAA0c00Ed5AeA00a05383D2ca",
+    "amount": "23684.21",
+    "vesting": "0x0dCA4Baeebe7401Cf041E5e9AF42D7177F51df65",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xfCA0c909c5Bf8fcFF8354F4360FDD45Ae2691b90",
+    "amount": "11842.11",
+    "vesting": "0xf45EC41D20A59ebE3e0d332092c2956d7865C936",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xC37424d17B2BC9611F44d06bb428dBc286362af0",
+    "amount": "23684.21",
+    "vesting": "0xE73EcB9421FC56416369CF2E1a407A62625b4362",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xAd4887e50Dd26079793eaF133DF48324254B51a7",
+    "amount": "11842.11",
+    "vesting": "0x668d3943881D50CC071ee28Fd39e9596d3356236",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x2c5976418660edC37448176BC931eB108Eeb951B",
+    "amount": "11842.11",
+    "vesting": "0x94ADC8B6FABdbb2048C1783af05a592E1c153B90",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x44617Ac4541C0A9323269B4eEB61a6e56DDf92ed",
+    "amount": "23684.21",
+    "vesting": "0x040Aa2A89F5705A2bf24adFBC122deF261959d5e",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x1f26291D81C472A2Ccfa474733E56FA5e2B13cB0",
+    "amount": "23684.21",
+    "vesting": "0x853E2c40F354C3d3fEEf06E5A4e15EC4aeD29a91",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x25687b666D6A6e1b0e546F371C69F713FeFe363D",
+    "amount": "23684.21",
+    "vesting": "0x25dcAA49bAad07bDcE7A060B3195268aec76Ecf4",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xDBB44026de5d4437E0a6Ca536A8840D53D2E6Bc2",
+    "amount": "11842.11",
+    "vesting": "0xF4c7eCf3FDC1e3018d491fc00DfD066BAca56fEf",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x03c61dF59e2FBa81B2a45eaa769df05436E03848",
+    "amount": "23684.21",
+    "vesting": "0xC4a784E025c16d5Bc815e9dfD9AcD40C45051A2C",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xfC663B8e5ec9f5DD2e358B34Ff448B564CC43ba6",
+    "amount": "11842.11",
+    "vesting": "0x01f27d7A95c188F1E36487B4fbA6D15C6FD05A57",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xa23E10acd274FE0BF38Ff1EB7001a20a322491fD",
+    "amount": "23684.21",
+    "vesting": "0x87eEA63054eef7660b16d63aa2A438270dFEDD58",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x0777832795d856711e8474bA63f9FAeF71467775",
+    "amount": "11842.11",
+    "vesting": "0xF20213798fA5d92139889C2D251eeD0f6e6d9e05",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xF91B54E99bf3c8028ffA690f664897FA0f1212C1",
+    "amount": "11842.11",
+    "vesting": "0x27a7E133Cc7F8734F4bEF3000386853B6d44A1B9",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x013e01AFB52005a4056052F17676fc1DED997D21",
+    "amount": "11842.11",
+    "vesting": "0xDBa12fbabeEc73f687089E60e14e188893cDdFe6",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x2A0Aa8708E71960fC5358686B6CD7E95f21f2044",
+    "amount": "11842.11",
+    "vesting": "0x9E8724C554493c1B242D305559B4C253a6aA33cF",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xdc753D6dC51B095c0e9BdCc83B8F74E2C3eC6188",
+    "amount": "11842.11",
+    "vesting": "0x256304D78389dcaee865412658A66eD700A03cff",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x5d335A726826602c3dD775690E31e34de071F8bb",
+    "amount": "11842.11",
+    "vesting": "0xaB0b2AdFb14A82D09335c2C8bCE8eb9E9dC9Ae82",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x38E06Cad1c74E5233AEd8da09F707CBCbeC2B54F",
+    "amount": "11842.11",
+    "vesting": "0xBA6575176E62c954138FE6A3C94A6D390EDB85b7",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x3B178D034Bb534F49a998Fe82dfb2407975C183b",
+    "amount": "47368.42",
+    "vesting": "0xF1E175F2d3fB0Dcc5f17c51d5511A4d7BaAD0E08",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xD6ab48A1379FE3e8E88c19857e18562a488ddf6A",
+    "amount": "11842.11",
+    "vesting": "0xfAb36033b73d20FC25473B3E8aFa866a97A2Ec0A",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xB4273e47E43983DDcd840F3A1528565F7E0d80Cb",
+    "amount": "11842.11",
+    "vesting": "0x9e8883f8587F558077d045a0D012636c03a418e0",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x7862Bb3B2906F1a2cF5082bb0d0d0f2AC12026D3",
+    "amount": "11842.11",
+    "vesting": "0x4f80E2F4793D487Ef303e6375fe22164620be4e5",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x585ab1ef5079D02D97296636bd466D5C93f37E31",
+    "amount": "23684.21",
+    "vesting": "0x3eCA5A55BD3181A70E4060980497c55205dfeFf2",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xd6B1F06353Cd420e49890992DEEa43649b273e44",
+    "amount": "35526.32",
+    "vesting": "0x2c464B1346b7F765F82ceA8906aE15bB8fEc6B85",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x7FCE5E3d6f46C10790372e11a954455C27269835",
+    "amount": "47368.42",
+    "vesting": "0xdc58883a5d4F7D092CA44A44b08bfD5b7AeAbD7f",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x20F05Ec683d2Ca2Cab9baAa6D9F9EA1a2fEfD446",
+    "amount": "23684.21",
+    "vesting": "0xf996AE4490d2aAD56Cb0dA1ab3D860e221D53690",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xC980e5a601E6b0d3094DCF20476Dc0a1e634bF5D",
+    "amount": "23684.21",
+    "vesting": "0x097984287Ff5c8Cd6EF7aCD86e0dae165E14b5D4",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x83777783c59041b68ADED7C2B13dF8a8dD193650",
+    "amount": "7105.26",
+    "vesting": "0x308dA99d33CB2139a8E329e7dCB644f9EC9dFE22",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x86565c4565F9E1452DDEa56A46B7fD4Ea548D825",
+    "amount": "11842.11",
+    "vesting": "0x746202c6b3aeD271f818b23C50e516aCd80BF004",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xe74B850C92F7F4077Cca91D044af252B38d45BDF",
+    "amount": "59210.53",
+    "vesting": "0xf591ad3e7cCbf3B9b8e75AB01DE5f7a2014D98BD",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x148DD462b59D70862a08D1862a53CeCA2D58fB6d",
+    "amount": "23684.21",
+    "vesting": "0x6d963FCC6CAE611884BA0182531e58eaa3532452",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xd05679f764e526d2024258F19b49f8f747cA6922",
+    "amount": "47368.42",
+    "vesting": "0x5ed8E6deb2c2708C1B2dfE4Ec82d8614E3188550",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x741930644E1Db284E88318ba78f95b5B1Ab9aBC4",
+    "amount": "99473.68",
+    "vesting": "0x3F467797676418d08c48431D9D89C4eFAE725ab2",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x1fBDCdb786B411e0427188b048Cd43188C61E5e4",
+    "amount": "47368.42",
+    "vesting": "0x7FcCAbdB7738041e98F42211A6d3B0d74A30eB74",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xD1735743D466Fa93EAcb5a9b53A518b26BB270D3",
+    "amount": "23684.21",
+    "vesting": "0xD1426c7ce6aa071F6B726702f81f33040b355e6f",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x2364797FDA4928016e631aDf65e532a941c86AFd",
+    "amount": "35526.32",
+    "vesting": "0x242302966AD446c6F4134a7c028a94151Eccfe5d",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x039255900459494dfc2CA8710801e06c2c870097",
+    "amount": "35526.32",
+    "vesting": "0x5507849708Ec4b191E22Bbe9649d1E34044B9492",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xabc5b7565eb039C9987102C062495a598f9cca5A",
+    "amount": "11842.11",
+    "vesting": "0x029F9bf39f3f0d0B67431cFf3aeE5DB83a3e28ae",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xE1b96cAb6562a2546c017A20CF3409473F4eB4D2",
+    "amount": "118421.05",
+    "vesting": "0x272bfb20a390f48b2e0fa6dc433fA00f559340EE",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x9Ce6De0ecDceBdF18E55D0F50c7456d1ef0A1C87",
+    "amount": "118421.05",
+    "vesting": "0x85Ef6Cc72b485bB369ac59B8De49DcbFd5A22AAD",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xd908BD9C83b8B45f505444eba17A2535C7294dF9",
+    "amount": "118421.05",
+    "vesting": "0xd4E2e3cea04779E5f517b7A9f8396409a83e6949",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x00A17D77B37B70516D12B43064f3998b2a3dacDe",
+    "amount": "23684.21",
+    "vesting": "0x978b8B67edbF267a0Ea151B3477f411C23cd8867",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x9E8A0D9507295975BCD07De38F946c7a25327825",
+    "amount": "71052.63",
+    "vesting": "0x7Cc565282E1dC4501cB41f05F41bc5027Bbf8c26",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x0d35428F4C48aAb788d512dC02bB2b6Aa008dFe8",
+    "amount": "1000000.0",
+    "vesting": "0xbA95CeF92277Dc13E47B63bDf76A9C3280EE44E7",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0xd34F6a034Ce15f956d330852d7b6B2Cf7B598B67",
+    "amount": "86716.0",
+    "vesting": "0x3F4F7242B47519726B0A91002E59A8e48B1906a9",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x313dC8f4cb8f0E420c5757657BE2A5B1c4Ac878A",
+    "amount": "300000.0",
+    "vesting": "0x503b093317B5A27f6074E32760062eb8AeBF9Db6",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x5bD70Be716376AeA94d42D06Ab901565A563cfCC",
+    "amount": "5565862.71",
+    "vesting": "0x321CC2658B6621bF3775c72Ed5C10638f7318507",
+    "isSetupDone": true
+  },
+  {
+    "claimant": "0x5D5F31971a0aAC6b27Fb03B431Ad5aCC860D2E8d",
+    "amount": "26664881.0",
+    "vesting": "0xb6052F39B2036618968f01DAA3dF52E27a146892",
+    "isSetupDone": true
   }
 ]
