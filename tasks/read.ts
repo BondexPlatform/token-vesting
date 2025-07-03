@@ -9,6 +9,9 @@ type Deployment = {
     amount: string;
     vesting: string;
     isSetupDone: boolean;
+    cliffDuration?: string;
+    vestingDuration?: string;
+    tgePercentage?: string;
 };
 
 readScope
@@ -25,6 +28,10 @@ readScope
         // Query claimant from each vesting contract's config
         let deployments: Deployment[] = [];
         for (const deployment of allDeployments) {
+            console.log(
+                `Querying deployment: ${deployment.vesting} for claimant and config`,
+            );
+
             const vestingContract = await hre.ethers.getContractAt(
                 "Vesting",
                 deployment.vesting,
@@ -35,6 +42,9 @@ readScope
                 amount: hre.ethers.formatEther(deployment.amount),
                 vesting: deployment.vesting,
                 isSetupDone: deployment.isSetupDone,
+                cliffDuration: Number(config.cliffDuration) / 86400 / 30  + " months",
+                vestingDuration: Number(config.vestingDuration) / 86400 / 30 + " months",
+                tgePercentage: hre.ethers.formatUnits(config.tgePercentage, 4) + "%",
             });
         }
 

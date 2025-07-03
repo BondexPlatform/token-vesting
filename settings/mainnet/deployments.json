@@ -3,2112 +3,3168 @@
     "claimant": "0xA96b36F39aE28ef206183F7958f0492470470F30",
     "amount": "200000.0",
     "vesting": "0x8b4f7C1D9b6CE921AFF643e60069a0011ec5425A",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xc2EB30BA00514a1B830B7846a8E332A834D73E8b",
     "amount": "1000000.0",
     "vesting": "0x867cFe52a40Dc66641AA91478A205446Fa4660d3",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xe28551451CFee5C5bb6Fd1400F5e4286C5D743be",
     "amount": "2000000.0",
     "vesting": "0x96fC62080CCC606887268FC15927dF2AB63Fc147",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x311b3bf4541a6A1A57c209a9bDCDcd643279E303",
     "amount": "1500000.0",
     "vesting": "0x70934f0F1EF46a36dF5883b398aAF9d9b8bd8B63",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x6857576a4af1Ef5272f45d9b8fD7A80fcAA33AcB",
     "amount": "27467.0",
     "vesting": "0x9bf10a2b209c13b38a5cca50005E6e58Ba66EDB1",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xAEE51F0d6Ef1D95E7750EEc5759A7b9c63cb6c7d",
     "amount": "774000.0",
     "vesting": "0xc1De72d9A57837CE365CfFca78a81CB727175a8D",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x518BeB487D463c60845911437E181F4e286e5253",
     "amount": "200000.0",
     "vesting": "0xe422453DA79eb45D0cBAF128e95efb91F4f1B331",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x189D649eF027b65a6Da4529498B1021Cc885668F",
     "amount": "300000.0",
     "vesting": "0x1B2C8944B2Bc6dD6bC6D2eB3A0b881E22E9666Ba",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x716D44E890098033d14f416da5Cca06cD45B6A4c",
     "amount": "200000.0",
     "vesting": "0x13360778F296E4C9c43399508B487d0Df2aBC64c",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x70B4aB88caC0A07b44cf8110b3e3B4f59a6E52c6",
     "amount": "1000000.0",
     "vesting": "0x0f58abf0Cdc9E61c0Aa134dF161AB30928Ef3489",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xcC36c0bb849E9C281D1eB9192BCc512a37b2b64d",
     "amount": "575167.0",
     "vesting": "0x18717c6bDB2F4D516b2Ec07175EC78b5f8B97a3B",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x0A1a435fDeB196860B84763Fa7Ac147EC33E537A",
     "amount": "200000.0",
     "vesting": "0x7823cB9a6b543439e4c8BC6B374bDD6dcFC94608",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x14d9E8CFAA2fE88C3E1EEb589B5EdFc0a1c08893",
     "amount": "47367.0",
     "vesting": "0x6FD2694A4d1367AA7Cc65903A43d4FAa706398f9",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xd48E64058cc8eF3AF75073921B2a9cC4Eb5Bf6aB",
     "amount": "600000.0",
     "vesting": "0xac19eFFdc6e6f8F529E83382Bf9689557Ef1BA1E",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xef30564b15d11ee06063aAcfBE4f0DB84C86441A",
     "amount": "155033.0",
     "vesting": "0xC2900eAB18Aa112C35478E88E7D431F7A8a8e350",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xd04617b3bd5b1Df0A3aF712fc5011cA899222391",
     "amount": "440000.0",
     "vesting": "0x8316BD260bB4ECfEF4979f1B711b45671734E815",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "200000.0",
     "vesting": "0xeA29F2F03B0C973f91dD286B4628b9c4999a8F1c",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x810e6F2fe5A23CDDa285CE60991d2C4789A3bbC9",
     "amount": "1000000.0",
     "vesting": "0xaB7f2821e6a18660770eb1dF56cF317631C2Ee2c",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x4b46e3A574bB55C318507fF22634dA1826317a9D",
     "amount": "100000.0",
     "vesting": "0x6E8818d0CfdA465b1Dc406968533FBe40CDeAcCD",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x80c191FbCf3E6e820a40dEb329A3EF4d35Fc4311",
     "amount": "400000.0",
     "vesting": "0x6C5529A48ca14575e2Ea14cB2303f4E310f50148",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x5Df30cb3E4Af42aF949a6a5bDedCF454B4EaA9Db",
     "amount": "1000000.0",
     "vesting": "0x67A98df04dc1a7eFeDb601C0453c806A3356FB23",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x7657C05e1F2296e768c2f6d563BD773B88353D51",
     "amount": "300000.0",
     "vesting": "0x6e37CC07496660544313982713951AF9d4535eC3",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xf8338BC0E3DA2D59bAec66d550716A4f53D4a5b9",
     "amount": "500000.0",
     "vesting": "0xC30Fd59B6A03327D1d7c5F9BcBb3d6B686d84944",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x38367667CC9AF2CE4ea8c4e5B3b79e489ca85c1b",
     "amount": "140000.0",
     "vesting": "0xFCA4626150f5514A6D8d2eeB266eb3dF78A145DC",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x82e3c20284eDe1E1F079A6eE6cf05B2b3028914f",
     "amount": "1000000.0",
     "vesting": "0x74EBaeB51Dfb76693fDda939f987B0fb523d2B89",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xcD9B266E223375858E107dd96D915F1414702d37",
     "amount": "535000.0",
     "vesting": "0xdCbB05335DEB855A19039A24C19ebEF2531161a8",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "100000.0",
     "vesting": "0xd49Bf1f741fA225E378F075836D30DaCE7925021",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "500000.0",
     "vesting": "0xcbE4265bd2c52D9Af21089B6A6071C54875df7ba",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x1819da9Dc0742364BC0e18B8B7bEe163E05b36bf",
     "amount": "1000000.0",
     "vesting": "0xAC1717dfCa8fE7901fA93fCb2e89f8336dd2a8A6",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x1c1452369b458Df67097106Ad229BA3b870eC0Fe",
     "amount": "1000000.0",
     "vesting": "0x919A84B77EA02e93094C059d6eB395661477f262",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x7b1eE629d7F1cFd184Aa4AAc82d3B2276dcF6b90",
     "amount": "240000.0",
     "vesting": "0x39428f2fd41AcEcFcfA7de28BAEeA55BddD5b4A2",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xdcF071191b7bd76a5465C653C2c66f474aF4D845",
     "amount": "200000.0",
     "vesting": "0x960A466557aAC3c0c803D99Efad6C7b743796b76",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x555ef83f1dF41a83eB795fD5D14244d5FeFFAb19",
     "amount": "260000.0",
     "vesting": "0x425ec12fd80677b1e47767545dA0fd55a01BD444",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x5A8681cA9efDDa2739A84e84a46FDf3DED1148CA",
     "amount": "600000.0",
     "vesting": "0x47d67ee025E87678A5c65100Ec8C7610755e74b1",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x164584f242F8410aEe7b303d7E9fD83dEE29DC65",
     "amount": "200000.0",
     "vesting": "0x5a602a2b7F10fa2C423C03B63f1746d97d3bF77D",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xabaEA5fd63923E97D70AE30B8FD043428e0A9557",
     "amount": "120000.0",
     "vesting": "0xC28594dD5DADcbce89f9D2384b12f835ABfa4197",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x84d45a4D43AF9587BDa7f320a1278874c3154769",
     "amount": "100000.0",
     "vesting": "0x010A9D81F6C2Ee9099146a8c43c4baaB166F8752",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x04D1DdD3A6Ed28c5448C6eEab86856b6A99b5D5a",
     "amount": "5000000.0",
     "vesting": "0x767c7D98ecaAB55eBdd4C06A49a21398a9FDC717",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x5069496D7fE8851FBBaa6C2fd1D05e18834A166C",
     "amount": "700000.0",
     "vesting": "0x62089AAB806aDEc16F4f9fAF6C7d8F935d0d6400",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x35969aceaB1D19BDDD4190c2d3Ba1AB90217c543",
     "amount": "400000.0",
     "vesting": "0x70C6B98c328169d4B4dF2A1517f884bF7508270d",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x67BB6102a8DF156b0837447D629db89D17e101C5",
     "amount": "200000.0",
     "vesting": "0xC6c0AF1D622660476aD4b72b8dd24fD6453aCE75",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xCB272C28A52A69eBe4F34349e4EB5377D731F36A",
     "amount": "252000.0",
     "vesting": "0x5A7289cE8714a2DBAC7e7D398589d844950E25bc",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x3e53AC8169dfF497FE75f59244baa554B71F9E00",
     "amount": "1000000.0",
     "vesting": "0x20713c4d2BfaeD47D545199cBe754a787ae0C6ce",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x8D66660D06A35D90ab34AD7Ef5257299c892E37D",
     "amount": "200000.0",
     "vesting": "0x2F50e037beFbD7204d55Cd219c7888377efD4497",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x2669679089174185C0e86207746dB112a15429b0",
     "amount": "400000.0",
     "vesting": "0xE64536D6e5e54E797e5a568996Cf0ee642f0c776",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x528D820b8Ca235B04B44f2161D1C4235203e031b",
     "amount": "100000.0",
     "vesting": "0xdee345E8274C3eD6b58baD701f855706257c9444",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xaFb16B14E661Bf1e9D7FF7d534C9e08353278f52",
     "amount": "200000.0",
     "vesting": "0x15aAfEE881C45862ad5Ac061E28C1120C7d79870",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x7eAD2aBF267A4b9d02271357320F181ca3d705D9",
     "amount": "400000.0",
     "vesting": "0xEE75b1AB5273847dC8585016C09769D29ca0C14F",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x9c3B73941c493074b119Af132B116a6512D6Fbb8",
     "amount": "3000000.0",
     "vesting": "0x44AF27DddaDce0cf2c508148C7108D59ED882Ff1",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xAF682De1193Ed543Bc82cbcFAae8003B0E63Fca9",
     "amount": "1200000.0",
     "vesting": "0xb6b66eE17c75Cc8bbf52779Cf1A7B59f9009339D",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x27514307ce396a2d924c8f9c3d41b70fda2c7dEb",
     "amount": "200000.0",
     "vesting": "0x34250FFb825a1A12550BA563DB441049a4AF69cC",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x9fDDd443090520062e69C3F54a4251964D69163b",
     "amount": "100000.0",
     "vesting": "0x33d430e9f024C6150fc3c86C29741D585dc7eF91",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x9b7f5cc957A39743Cd50188fb1F1f15bb87D616a",
     "amount": "100000.0",
     "vesting": "0x93133B28732927F79b70a9D2C1ADfB3618379ECE",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xbd1Aae99F53B21321cBA11B9Ea28167eeE9e99c0",
     "amount": "100000.0",
     "vesting": "0x307A0Ce63ce974A0943aaeB1FD64a965F2D6398A",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x85c117161c19400dafAb26C0097B9A2326f7ac68",
     "amount": "100000.0",
     "vesting": "0xe225F8d5585c0689D98087917881609fCC27db64",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xee848b0Dd9B31081867996861455409a8a7ab314",
     "amount": "83333.0",
     "vesting": "0x2E6701225c742f033Dd0Cd427baDdeFc0Eb30EF4",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xe47195fF7caA624eb0eEb5Bcc0D10cad5C1D5572",
     "amount": "100000.0",
     "vesting": "0xa37B168906be09e926e74621471D4872125fE5F5",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x9CA07f88057C2EC93D38670B9B433f853440E2f2",
     "amount": "33833.0",
     "vesting": "0x7d9B9E46C44bbaFfD57876129D5C89017571C753",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xA925Af76AC3e53CDF727396755Eb89838484d93b",
     "amount": "13533.0",
     "vesting": "0x02D24B83f96E00CFeD760E2bD124b26fB55a3618",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xe054d802BD5447187520DCb9584CbB845cf81566",
     "amount": "27067.0",
     "vesting": "0x8Ab473d808AA82F2beb9507B8720f50f5499765D",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xa0d00E0A60ec2Ce890CB8f203b048A026be3a00D",
     "amount": "13533.0",
     "vesting": "0xa0aA00335734929076386D1d422393b699B5da00",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xb47c854E97E0354e2c9fe5c832C9cA7503195BAB",
     "amount": "20300.0",
     "vesting": "0x35649EBFc40EdEE8c60A2D7Ef793901F778eBFF2",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xBb1DE84F796Ae0d02f722B3B1C6Ac6DF77eC66A6",
     "amount": "9868367.0",
     "vesting": "0x4Ee8EfAEE7074884d4d07a3c57bFDcf24AeC879c",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x3c6f165a02CE5B6263b11057e8ED4F76AaE96021",
     "amount": "9868367.0",
     "vesting": "0xC9Cb54BA093Db7edf53100045c79A0F6DC32cE9E",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "328947.0",
     "vesting": "0xacfE336bDcd5a56aA1133d7BfFC7Ca69EEa2F6ee",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x1C84EdcA0c7db0927ae04BCc4a4Cc9f7AFb3b6A8",
     "amount": "657895.0",
     "vesting": "0x44818a5911D838A1162C240a55A43812fDAdDCC4",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x5bD70Be716376AeA94d42D06Ab901565A563cfCC",
     "amount": "1315789.0",
     "vesting": "0x6790AAF74D1894775139CDC6dCf18E1e3e77bAEA",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xcb3e40070F00DC2B4642B70f47dCd8FA5b891EB8",
     "amount": "1315789.0",
     "vesting": "0xDEa8fFA60C2c83e14D2bafC72FA8D301020a2bc0",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xa50f89381301Decb11F1918586f98c5f2077e3Ca",
     "amount": "1315789.0",
     "vesting": "0xa9D5C542b6105444E6F02eCe5aEF6E8B36ef9edD",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x47cD7802af92b886Eb4818476a359e7423452D0C",
     "amount": "394737.0",
     "vesting": "0xA9f5A5Daa10e9948C4F8fb7eF97eEb73C52c3dD5",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xeC2F622878650da180b3Dd6E060A507413Ea2EC0",
     "amount": "1315789.0",
     "vesting": "0x9F4556E0f000Ae9C1D0b6aCE811E215D51DDDa10",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x0d9521c29Bba2A75864BdbBd09F91b45510e32C4",
     "amount": "263158.0",
     "vesting": "0x55A67030470B1611AfDbe871fFE3747917BCb3d6",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x5bD70Be716376AeA94d42D06Ab901565A563cfCC",
     "amount": "2500000.0",
     "vesting": "0x1e105E91E55A2be99e52629153d594ca375D19B3",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xd34F6a034Ce15f956d330852d7b6B2Cf7B598B67",
     "amount": "263684.0",
     "vesting": "0xaD46B9760A718c48Cefe3f6315601785dE3CA1c4",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x68Fe5fCccc6504FAE59F4b8A52EA06707cFD088e",
     "amount": "640000.0",
     "vesting": "0xC23B24001FFa24a2e61036e36736f531A36bFE80",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xf2813BB3415e59E310dd81a0D4A2812561417ce8",
     "amount": "300000.0",
     "vesting": "0x31FE81481aD388De89F76266fae3DeaC18C65Fd8",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xf070f51f0CA84B2f0fA1b7cCc1C6760C0cc2B1af",
     "amount": "394737.0",
     "vesting": "0x456e15893287906200A9059F8a319324D4fcE4cF",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x505Ffa6194f6e443b86F2028b2a97A588c17b962",
     "amount": "1000000.0",
     "vesting": "0xfBE5dD3A932C394bBd4150Da6DE44539067eA6b3",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x53AC9e771B980b5966862239740657bC7A4B2D03",
     "amount": "2000000.0",
     "vesting": "0x6cF177A1E454E9A9550031d17B9E22C935e539AC",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x47cD7802af92b886Eb4818476a359e7423452D0C",
     "amount": "394737.0",
     "vesting": "0x4C78bD98D77f7f3Bc39b0c875905C13a3b8EE3eA",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xb7cEb6CbA7aE3F125480Db4Faef1EdC2DD36db70",
     "amount": "533333.0",
     "vesting": "0x1625a823a92dEC7b7E2becfC12F85BA8E27617C2",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x100632eb5692e11c26FdBCeEFCF86C636a7CD70c",
     "amount": "2000000.0",
     "vesting": "0x42A0dBC798d971DdD12EE63B1077684A4263dB9F",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x7E1341CA702eeb2cad2c3A6d7C433a6235A24229",
     "amount": "1200000.0",
     "vesting": "0x8Cf56b2a8643eCEF0D481F4437F9c6e5d2277a6E",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x77d6D98f7fA8607B8b69b4Ed47021fD2a407a181",
     "amount": "1434783.0",
     "vesting": "0x7c9875470631883ED7f49Df2A7De685DC65DC24A",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x29CAa7a393cFE67576F81A8b77A22c7880aF5501",
     "amount": "2136781.0",
     "vesting": "0x94F88441c5256209Bc2966B155Ef04a8e5754124",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x6aD624975A0D341e7a34678c52D17752D3D57831",
     "amount": "565890.0",
     "vesting": "0x9FaC1Bef4354Dc5E5d810397BEEc6F872ce6627E",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x40A65d57097e72C9149046508Eac98880A88a1Ca",
     "amount": "938904.0",
     "vesting": "0x89367d7260c30381103bD97c08dB32a633864567",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x108f393320a2D18785f11f3a7E17Ea7ABDa5e5CB",
     "amount": "141753.0",
     "vesting": "0xd64c5F71347E6De71841313F68E994Dba5a4c887",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xBd5DE08152cD8f8F91D3B3570A231c66F299475E",
     "amount": "801452.0",
     "vesting": "0xAE28f51E3dDb6b6E0fDA9012Cc89D11527bB5ACe",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x1A8751a1104d8Ef25ca226F6F5C391e9335e42aA",
     "amount": "59050.0",
     "vesting": "0xEd172170b319a84De9f9CA34667edA686Dd03bbA",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xD344f5C175934Ee5f29573d0407479d3A88972Bb",
     "amount": "323815.0",
     "vesting": "0x1EaA60cFd0bfa34D9B6FA675c0975C15887BD6CB",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xc694277e560495eb22439FfAAD486f2C2557919E",
     "amount": "894329.0",
     "vesting": "0x7CE923FCEE8611702a69f1A355bd91459980d5Ac",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x33c5b73140622F762a1293a470a1ee9dcC85d9CB",
     "amount": "919804.0",
     "vesting": "0x36059e43b38cC1F9B7902b6F83C3a868135CD2Af",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x1fB807FD383D1C491E052B8B625d614965a45d69",
     "amount": "2700000.0",
     "vesting": "0x8ac11d4E69c2217C5BDBC2162124E58108C571b7",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x1892284611736593CDe5119A767fa0Ae9F605324",
     "amount": "35096.0",
     "vesting": "0x738610608e3f986a927EB65B1a742D0fa2CFDd3D",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xcb8427127C693fAB959548C6c4B36F3ce110AEAD",
     "amount": "238192.0",
     "vesting": "0x56ed57d8A2dDB7D47871b9594645627d14A58568",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xcc09eFdFba91Ca6FB266e8F9148748e737ADC54b",
     "amount": "70000000.0",
     "vesting": "0x085899F029B1760f9E846fadAb255e4d5963E93B",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xF396D1eFE5473689acf88bafEe41ddB7eC8C3C79",
     "amount": "30000000.0",
     "vesting": "0xf6E58371cDeFA9AAee3d2d1244a46C4c87134813",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xdD3B37C844e1673208BA13c4b5D2fA8dF9722A0E",
     "amount": "114041.1",
     "vesting": "0xa4c773cb30Dc05B39eB324Caf283925Fe5989134",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xd48E64058cc8eF3AF75073921B2a9cC4Eb5Bf6aB",
     "amount": "500000.0",
     "vesting": "0x1C6d4eC3c8076DD2a5dC00bE1560049dD015BdBC",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x1604929E48Ca9025A37aB58e8a007c14703F3E8c",
     "amount": "250000.0",
     "vesting": "0x6b5CF22BDCb8e068e8D5b8DA3fFA4DC697011DB1",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x5039729C34B2634A99Ff81EA3826e9e73CAd5398",
     "amount": "2000000.0",
     "vesting": "0xeE137788523487e2f93Ee898c381e54854282Ca9",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x8C561a8DeB53CfE4cD95134730530aE8969D3b80",
     "amount": "200000.0",
     "vesting": "0x72828Acb7F989B289718b3Df09A04B45e4d208b8",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xD46FC584A26837475A0f065C4994d89f4859273B",
     "amount": "200000.0",
     "vesting": "0xeFe1181E7E8416b3460c6c257D32Bdd091378799",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x39890DD6Ce92290d1b124ac56c8571b7A3Bc40B3",
     "amount": "2000000.0",
     "vesting": "0x0d5acFb9e58658F11d62f22224F6A6B464B46aab",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "500000.0",
     "vesting": "0xF408B037FdDECDcaeB2007e6fC74143C6273a9e3",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x6aD624975A0D341e7a34678c52D17752D3D57831",
     "amount": "440000.0",
     "vesting": "0x8bf679F98855200d299A748f144a7D6260FdB924",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x8cc69602F5964C6D15cFB70cbbe8e0B33B44307f",
     "amount": "500000.0",
     "vesting": "0xBE91b72Bab0590F413D08b17D1DA5F06906a73d6",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xa119D7AEdc787aC77F28f2E6588dc8c19009D6bF",
     "amount": "2000000.0",
     "vesting": "0x22dD6c9046619146c417bcF8E4751E2061Fd313E",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xa5866c754e42679d152E4eB33cE1163215Ae1435",
     "amount": "3000000.0",
     "vesting": "0xc11BdafE73C41Acdc46cAA8dcc95208b7CbDFD83",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x6a935D5Dc2772B18e3DE69d4Ca775992fB18c843",
     "amount": "394737.0",
     "vesting": "0x50632875a93c170Ca4f385172a9feb4379E5c063",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "52632.0",
     "vesting": "0x94E36BF92f03706859f458A6Aa51c2235B5e10D7",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x162C0C1a92dD035408C89049D74a2683a09D47b5",
     "amount": "2000000.0",
     "vesting": "0x7001C7Df875132049C1C75dD57Aa2e379FcEEEE9",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x505Ffa6194f6e443b86F2028b2a97A588c17b962",
     "amount": "2000000.0",
     "vesting": "0x03aBE312c2A0487AF3fFae3e44929B8727C34ab7",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x382eE0af34Fc242602797ca4e49535c5d5cAAa4e",
     "amount": "3500000.0",
     "vesting": "0xA571f856d696C22E51d14C0C5a9c08Ec15CB87C2",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x1c595C975e41e9BD56F5C7b85946Fe399aE1C7F5",
     "amount": "500000.0",
     "vesting": "0x1eE91C4984DFD5B29f2F8dEc4b89603581a26C15",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x3f29718F3dA772a0273e6F23429155eC39cd1338",
     "amount": "5000000.0",
     "vesting": "0xF8cfBB26145Fc54704823d7f93c71D7159151522",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x7C802e969a11c6f772096a0f79171596d4b70cD7",
     "amount": "2500000.0",
     "vesting": "0xAB5C02ED2b6733D7E445298F5c8Ca106524D443D",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xd763F6744EC94AB5e8dEaC20492f9f0143893807",
     "amount": "2500000.0",
     "vesting": "0x9a69805bFe8FfFCdc92f290A909EEc4518D2Ed61",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "6000000.0",
     "vesting": "0x14F06D88B0FfF50843F612926DF19AAC08aF0D0E",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x38E02a50D0AA18e3Cf5Aa4568CA6e0fF1fa5f0F0",
     "amount": "2000000.0",
     "vesting": "0xD711FdfFdc22Fd994BA6687f0aFbcEa65F8822C2",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x946618606665C3edFb3C800fEF708591eb35fD17",
     "amount": "394737.0",
     "vesting": "0x93082FF3399A01503E161fB5499c6e127A1B2c8B",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x2517E2bf211CbbeA0cE0d055B7af523930eD69a7",
     "amount": "2763158.0",
     "vesting": "0xFE715F95aC5065dA2e386C5c8D65A691d3728a65",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xfb4334A5704e29DF37efc9F16255759670018D9A",
     "amount": "789474.0",
     "vesting": "0x8F285a25C31083E7CD7bb16C559128663576977B",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x0b73e83a7C330df4d100CA2e3c91f8bBFaE61659",
     "amount": "1710526.0",
     "vesting": "0x5431d004E2817924830b4d364cC3426aa1bb8f21",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xfCfb5e9d243c862AE7dA3C2f1C10636277728644",
     "amount": "1973684.0",
     "vesting": "0x9945358fC51C26fb81AABaa73Fe98B5665c1a745",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x46396764Ed8c873f91e60D4236599577D8e642f5",
     "amount": "263158.0",
     "vesting": "0x6dC69Fe3B49149232d03a51c9458a200b45e7F06",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x9996394910073CdFE2Fe1b34D478521ed408725F",
     "amount": "526316.0",
     "vesting": "0x4fA55134711313Be7949f741C8C7afB2CF1e6a3c",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x4947f1Ca532293bC55501B03c54aF583347eb112",
     "amount": "1052632.0",
     "vesting": "0xd831d75c7118D1574Cb32BAf576ed5813B85b58a",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "131579.0",
     "vesting": "0xf4C4DCc44624F855Dd71081f102E045798B5D542",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "78947.0",
     "vesting": "0x54161445505064579dD334cc432F3d010f5eC61A",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x7C0fef6c18e8494FFE2669eF691c4E5e8877717F",
     "amount": "78947.0",
     "vesting": "0xdb3bf9cf0eA9e057Ef3A140422c335c0cC96Ff67",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x4c7366284d6A7474206DC4B40CeDa5f58d62cCE8",
     "amount": "342105.0",
     "vesting": "0xbf98E68e12B87cD5eF278e6fDEF3B792e44a9B3D",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x51Fcf0B787121641aeedD25Fc9B75321D563e68F",
     "amount": "105263.0",
     "vesting": "0x5fC8A61048D496A7bEca7Ba2F8e406D5985b190a",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xd23A16AA49855440eAb3a39894A3e4f39f8a4Ce3",
     "amount": "394737.0",
     "vesting": "0x2aAC43C55Be547159822173e487e91150314D0E8",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x3dfb65035F2648CF5D8EF6DED2694b01509fc408",
     "amount": "131579.0",
     "vesting": "0x6354607706ee157905b40eb531Ca21f4B0d3553C",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xe2C0379F57a26Be3bd58147EC67355d73D30F379",
     "amount": "263158.0",
     "vesting": "0x58182032E8F14fD4F088AF5791A332b9874401Dd",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xD8757d12A5005ec422E78f89dd24034d33cA4447",
     "amount": "157895.0",
     "vesting": "0x5dFA58B86205BF0564688F44DCFA060af9254a7C",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xB5b7e0355c354da392DCA1bD7523186c8809dCb0",
     "amount": "526316.0",
     "vesting": "0x9657DDC7410da17773F51cD0a0AF37DE9fd02f39",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xF6BF343A42c27EACe61c9416b810F55E97537872",
     "amount": "342105.0",
     "vesting": "0xf73BC5C1295e44F96aEc425d170212dB1e080f37",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x7BB0487dfa260F02Bd0eF9587c20144abdF9DfA7",
     "amount": "131579.0",
     "vesting": "0x5AeaE03e99Eb8767BA55499640B079ED5f238878",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x4553eD5d8d3731E629f67BD86abd021175F31848",
     "amount": "394737.0",
     "vesting": "0x921e8e27143151ed144b514b2d70b5AE993db4Eb",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x3666700d4C9e08c8762674F716F01694eA4Ac4D3",
     "amount": "131579.0",
     "vesting": "0xe62BC1Fd926F4d614C30394cd1ABbdD6802cC667",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x749E7333FC2b1997E546835b6F8353c628121E5a",
     "amount": "131579.0",
     "vesting": "0xad4eFF66Ca043656988202b19BFEf73a5414308E",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x3e4cA0407Add19634A667574135A803E1093Df72",
     "amount": "394737.0",
     "vesting": "0xC712F8083d7624c61ff1CFA7dFD44897A8F217F5",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "131579.0",
     "vesting": "0x7Ab6351B5Fe1F8150F791e40dB8e6D69bf623795",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xD040De28590bA742997f3023c353A532873E07e2",
     "amount": "131579.0",
     "vesting": "0x8a8E06683d7Fce678E9389D61BB199a48873678E",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xd34F6a034Ce15f956d330852d7b6B2Cf7B598B67",
     "amount": "399600.0",
     "vesting": "0x41207856615e4faE245dBc9AA7A801686CEc646E",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xfD2381c5bA5962a3FD87Fac674772744b977466E",
     "amount": "394737.0",
     "vesting": "0x5BeeF0c2fB0084F282c3dCf244B112C960aF404A",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xa5866c754e42679d152E4eB33cE1163215Ae1435",
     "amount": "789474.0",
     "vesting": "0x3cDDD0dBbeD659eEf6CfB65eC5f3fB0345cE74Df",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "789474.0",
     "vesting": "0x8D2947752E3C486e88D94eB746848760C75d8695",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x0FD244e78575d6252079399A164FfC2f3F178d97",
     "amount": "263158.0",
     "vesting": "0x310C6E4790bFaf3D83BF5E4d32441bCa068bd835",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "65789.0",
     "vesting": "0x2f7a185c1Ca9E89502ABdDD737990DcC1C323C32",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x95787c855CE47e28cFe2B0dB38f54b178378cD4D",
     "amount": "210526.0",
     "vesting": "0x297Af654B44a42847Ea6cE490A524Ea302020A17",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x29d6E6B1bF7eeaC4bB87F7D7057A10E4b25A0266",
     "amount": "131579.0",
     "vesting": "0x3CCb198Cd04b4ED39a52C4075688dC2565DB51b0",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xb128d6007D5d0e9B341f2C66e9ae482304Fb7FDc",
     "amount": "263158.0",
     "vesting": "0xd37D829eEADcB20C68d7d16D4225A21d9592Db82",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x06e21F38B0e36E0D2CaBc9208C3bFfbC3504dc7A",
     "amount": "105263.0",
     "vesting": "0x217574Fe9f893c8f2F7ed9E7de381141c3A16A22",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "157895.0",
     "vesting": "0x8c3265380B9c352Cf82596dDdD6f807323AC834E",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xAF55Fc9F9D38a9DF6273b60C8f8E4F27F131093D",
     "amount": "184211.0",
     "vesting": "0x1F106cadE35B305C18a1664105f2785ef8a0f7Be",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x785E92E413D11005F63379d2e2617Caa307c1090",
     "amount": "394737.0",
     "vesting": "0x1703E01282c09287F42686450f0D8cfED8fe9d43",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x0a7Ec06feFA2B1e1596e0092C244CB6ddD5AD4a2",
     "amount": "526316.0",
     "vesting": "0x8b80907eC2e56eC4524F0FD566869B2a97A56131",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "1000000.0",
     "vesting": "0x58D56F53F90835f289665a2Ae4d89Afa7D128967",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x591943D3f9a0Aeb3e349d386Aa7A87a2F6556a1B",
     "amount": "157895.0",
     "vesting": "0x4111F1AF1647E1F553c1A5ab8B74113351db5639",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xeDDB00d08022f282A0179cb4c35697F50EF3b138",
     "amount": "65789.0",
     "vesting": "0x30FCE9f90D0a63e7068810Dc45fF187e0faC7859",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x2Cd5BaBF59fC6281Da0d94Eee8179Fef5C810490",
     "amount": "105263.0",
     "vesting": "0xA7d49F14a95BC2d3a46F679A5a44465fEff43050",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "131579.0",
     "vesting": "0x0b154011D6a9009a4AC8221d051762F234b6A3d7",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x1BB100E126fC108074224401E17b782EfF00531F",
     "amount": "52632.0",
     "vesting": "0x1DC28FedBa98e66321B49de1DCed08C9560E59c1",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x5239C07E7e1963a466Be7f8cE257f2aEe9999690",
     "amount": "263158.0",
     "vesting": "0x32af2379E97E2F00eC70fAFd8344b52E9d4609bc",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x89B974c8108eb81F5974ca2FA9468b7ef74978c1",
     "amount": "394737.0",
     "vesting": "0xEC24c8BA93D791272aB4ff5b8F66E153c863c8Fc",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xf2813BB3415e59E310dd81a0D4A2812561417ce8",
     "amount": "394737.0",
     "vesting": "0x3Ec938fDF933cB498a6ED2C0A8422847C461941f",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xaF0Ca98208f4c7516a20D68fb2E076a9b1b1CA32",
     "amount": "263158.0",
     "vesting": "0xEa111E0493C63f9e1697307A745c28683Db301ed",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x1c595C975e41e9BD56F5C7b85946Fe399aE1C7F5",
     "amount": "263158.0",
     "vesting": "0xec9245FA1825603470b8FcE66a42fFD8e99Ae6F1",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x7C7c4408a1B66F72163B455D25a67A313733fa5B",
     "amount": "789474.0",
     "vesting": "0xE143a8f0C88Af9F6BD3556987c85baA9868E35A2",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x82b255E3A6c7F47ABcA4b7E7940b9a13A15E5a75",
     "amount": "125000.0",
     "vesting": "0x8E58fD3d3b19Ef82e2069E183CB4D8C1661c567a",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "1315789.0",
     "vesting": "0xaaC8D45f839Fa5752da2182bf4D5F00B9AeA17af",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x3711b24DE715E574CFBb81ABA1323DEc2d7e7557",
     "amount": "131579.0",
     "vesting": "0x7cC0b8dF4b83B626C044AeEB47b83e679ea37524",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xF54A71f540965Fc767bcF22B8E1d70f15E156C5D",
     "amount": "78947.0",
     "vesting": "0xD959d95300Eb5eed8c840BEC1a50a578bd19D81D",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xFDBF0bc29D8Ee85bD612B80d5f36A769f2685CB0",
     "amount": "78947.0",
     "vesting": "0xd6c22586d17463C72413FDcf377AC0cA9a16B5E6",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x1DE9839C1E9E183Ebf50fb10aFa9b3e64D8AaD2F",
     "amount": "131579.0",
     "vesting": "0xdF6D5fDf34A90efC06AeE0039FbC8C71F467bB9f",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "533333.0",
     "vesting": "0x5ad284E229474F1B397b0D4dEd0556d32864Ef7B",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x0036d68CCab1677179cD7A5c8c8568Dc7907eAc8",
     "amount": "131579.0",
     "vesting": "0x9439260A5dAb0e81C09f830332504A0aF8E3B102",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xC28013c1D7F0bcbd3ECB4d4926ca36Ee88dF8af2",
     "amount": "75000.0",
     "vesting": "0x10E0d73C0AF06F099901900DB1AddE2365D7c126",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xFEDb6FE80752F91ce8cCc2a67289C23B98841291",
     "amount": "25000.0",
     "vesting": "0x6E31C3659ab0da05Fa7C4eE01e93847F2a79eA68",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x7E1341CA702eeb2cad2c3A6d7C433a6235A24229",
     "amount": "789474.0",
     "vesting": "0xe23D8627f92614b107C5F866d02029F46286CebC",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xd9f6F7Fb91d7f9C453A052eF0d20d63e29ec6b1A",
     "amount": "50000.0",
     "vesting": "0x846C06ECceB62E02229bE65544a863f2495e7628",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x22f7188311fD99E8E2C3B57472b85eb75aB28c02",
     "amount": "37500.0",
     "vesting": "0x479Bc36D55C90041687969F9dF3EafE9665852Bd",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x7b2C661CbD2D85bCa3aC86a7a04EF05DC2558898",
     "amount": "75000.0",
     "vesting": "0x4A8d8cac6d329cDe2EBac35A2E5b8656C9B2229E",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xF15ACe93Ba23Dd41a49C410b73549FE6Ca4bf865",
     "amount": "25000.0",
     "vesting": "0x7Ad25b1557c80F07F101d204B3b629A674De2F1a",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x574847Cd5D360a0aa6cA1F2e80A548279c37D328",
     "amount": "25000.0",
     "vesting": "0xC6D97452862a179d45058340B102F75b396aED17",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xa0AFd866491874968dc564DB5Aa99E5a6433cA8D",
     "amount": "75000.0",
     "vesting": "0xb68c9ce6DeAc5659A8452A8E0190f5021a4759Aa",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xa50f89381301Decb11F1918586f98c5f2077e3Ca",
     "amount": "75000.0",
     "vesting": "0xF604ff5A474522E9E387596EC612A7d3E98147d6",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x8960bD24D083Ddd6Af40dabf9FD709FbbEA8462C",
     "amount": "50000.0",
     "vesting": "0x3384385E489f0442EeC68371FB6f38E262E67F7f",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xd3a1AD4f432bda630dC4D7C48D0A13c1bCabDb91",
     "amount": "75000.0",
     "vesting": "0x9d990A54ff4136Cd86AE84a0316a82283D911167",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xA02EC42d555Ad58C8bB528415AAdC5990dddbB88",
     "amount": "25000.0",
     "vesting": "0xd8185d547b66FCFfF4E349c2a3484b81183E39D3",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x61FCA8B9FaEE583ce62eFb8358d6cd8de47d404b",
     "amount": "25000.0",
     "vesting": "0xBb2E646511302B30903Ca27639d8264C5c857d20",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x87ABC812aEBAC9DCd417379E5d0d178E504F3D53",
     "amount": "250000.0",
     "vesting": "0xAA72C8C8249BB9056141221A345c38360A1dEfb2",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x773D019BDCba8c0CB16D3A02993b3a6f093139c9",
     "amount": "8333.0",
     "vesting": "0xa96CEC993f7C2E32aeF6EB47643eAE4d2979D4d1",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x743A2d2Cee17D4d136376a4a745F8D3d6FE57f99",
     "amount": "16667.0",
     "vesting": "0xB34c2c656eCa190dE47825B5Cb21e4a1c247c821",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x0635F64502c99b946Cd4b2dC1BC26D183D10Dc70",
     "amount": "8333.0",
     "vesting": "0xd4B3Aec9081da66b34f1D7912A315d5B5ddB3a57",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x3d893c4d092cFB126e5F7474d2F1FB97A11b93C4",
     "amount": "50000.0",
     "vesting": "0xe0F8818E8F5fc3a2BB35A53de22A7AE6fed68Feb",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x5cA8d7C2AA8524996c6d11993FB38641Eb375d56",
     "amount": "75000.0",
     "vesting": "0x097caEde0eb1168770576ce436A8B14C196e023F",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x0Dceb12e7F804197BFD6395e77577016EE292b00",
     "amount": "25000.0",
     "vesting": "0x52391EAf1C0bB6a8f1cF36Ac5B9c9A68A6199CB0",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xE6901A12ECBA1f95a69b2a46D0B2DF786D20aD5d",
     "amount": "52631.0",
     "vesting": "0xb3334BDC7dee6c263Db52Ce8aF5c75AAb025F942",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x4b0d8Ae6f7Da9f3c5ff4c100E7FbF38fEb91E673",
     "amount": "78947.0",
     "vesting": "0x2F59aaBc018DA0085f079bC44D10C8018343493C",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xeAAf169d4551132214EAc065797fE1AeD4E7Fe45",
     "amount": "8333.0",
     "vesting": "0xC2571d65fc009E3B4C5a8378C45631510220b85b",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xD7DfD29B6eFEb895C8972DAA5A301AcD76737C28",
     "amount": "166667.0",
     "vesting": "0x7297e0433b840aB3d4dca67579a1dbAf25135D09",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x5785C34dF5d07b42C7F4e529fDdEC9cf39a2a97c",
     "amount": "16667.0",
     "vesting": "0xC53112CE21d229B1BE671fF43CA414Ff8DFE0d67",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x00A17D77B37B70516D12B43064f3998b2a3dacDe",
     "amount": "16667.0",
     "vesting": "0x97A377a468f159baa08a95795722727246a59B68",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xD1735743D466Fa93EAcb5a9b53A518b26BB270D3",
     "amount": "16667.0",
     "vesting": "0x631a641A7eed06BA1cC1ae1Ad28faa2863e35AF1",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x4f318b8B4a3e1fe4Fc59dAa3D1F1E8C61aB085B9",
     "amount": "70000.0",
     "vesting": "0x24d7F2f79Ef1638Ac3cEAe52ce710bA3CB87c24D",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xA620ccF0212548765d5Ef5Fc272FF0b4bCe0e96D",
     "amount": "12500.0",
     "vesting": "0x097328dD1faD00906950C0E4cF4eaddb8D64b5c5",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x637D2E60DA55F8fAAA0c00Ed5AeA00a05383D2ca",
     "amount": "16666.0",
     "vesting": "0x7aB089d6061302eBF30AA4d91D4f7f5F4C516A74",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xfCfb5e9d243c862AE7dA3C2f1C10636277728644",
     "amount": "1875000.0",
     "vesting": "0x1F7D6890a422DD0E35c364bCd60B4287595c3F50",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x148DD462b59D70862a08D1862a53CeCA2D58fB6d",
     "amount": "16666.0",
     "vesting": "0xe17aCC8A7627215367cBA2E9B4868Bc653255c2A",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x2364797FDA4928016e631aDf65e532a941c86AFd",
     "amount": "25000.0",
     "vesting": "0x931b78578621014fC94942c6835aD42F80296a00",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x039255900459494dfc2CA8710801e06c2c870097",
     "amount": "25000.0",
     "vesting": "0x13c55C710EA27159048AB012F195f8CDfFF96033",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x1fBDCdb786B411e0427188b048Cd43188C61E5e4",
     "amount": "33333.0",
     "vesting": "0x75377021929E137786B61C9f7f767A11e9D04CF2",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x9E8A0D9507295975BCD07De38F946c7a25327825",
     "amount": "50000.0",
     "vesting": "0x5d7EC48F6A00EC726626B7596a90F234D8feD3cF",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xEB0A9b2275D77e4e8E69eD99045714062c4448F2",
     "amount": "8333.0",
     "vesting": "0xfE53bf750deB8C75BA4355F55053c7D2186E4848",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x8ae5C57f97d1129FbabAD736cB4d6Fc3Ef1A56b7",
     "amount": "657895.0",
     "vesting": "0x048324225c0148e8f41eEbBF7CA9427aa1E7d262",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x7E1341CA702eeb2cad2c3A6d7C433a6235A24229",
     "amount": "2500000.0",
     "vesting": "0x09a525495314F875ce1b750499eB49a96BafE8D8",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xCaBb5F4b431d5026f8Be88e69Fd22272b3891b0b",
     "amount": "394737.0",
     "vesting": "0x1B709925D2CC6d9b5A627C02f60d49b51bC70E8a",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xfb4334A5704e29DF37efc9F16255759670018D9A",
     "amount": "657895.0",
     "vesting": "0xE454eCBFd3665f37817ac946995Cc5B6B3791867",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x9996394910073CdFE2Fe1b34D478521ed408725F",
     "amount": "526316.0",
     "vesting": "0x43b40B592Fb7441903e31009de86E2305311abf0",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x63D77cF9efC065bfFa620b8D8434E8E453df9FBC",
     "amount": "1000000.0",
     "vesting": "0x6a850Be79950ae7CA32950Ab1Fc191CD3165455E",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x6C950328186a1bE3315f228EC4159748dD23a1BB",
     "amount": "394737.0",
     "vesting": "0x913d8dDe88601d0eEb48D1ac5BA7BB1A3B88cF5B",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xa119D7AEdc787aC77F28f2E6588dc8c19009D6bF",
     "amount": "2000000.0",
     "vesting": "0x8D47ACC8651e189dB94238999eE507De0A6FD6de",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x53bc911B4D20b22379f89B198b9554b2c70C6FE9",
     "amount": "526316.0",
     "vesting": "0x2c0Fb8316B83c883a2631f2E0B5405C2666920AD",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "789474.0",
     "vesting": "0xBdb9723FF3FFcE6c2ECCeA059DF81333A110f4d0",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xf05A8f54dCF06f6537f03902cdc2d49D27688c88",
     "amount": "1314474.0",
     "vesting": "0xCcD98070575B02B5c77B7BC4e7c159B8D341EFB7",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x3dfE840869F6A11acC4C8c59A827671320549532",
     "amount": "131579.0",
     "vesting": "0x319C92e4651c0838B95FF945AbA1b046ED83Ed5C",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xf5666948A3fF867196472c174459Ee75eeF1adb4",
     "amount": "157894.0",
     "vesting": "0x51F1A46e374ca625AC16854aF4F689c9587965A2",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xD4d8D9Bca02A8Df7bF9323a359b03d48A05251A4",
     "amount": "1315789.0",
     "vesting": "0x112796529eEfeD1C10d84d975343b21A6f21e6c1",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x57e029A25B16A20f9D3163Cbd6954eaE69bfB91F",
     "amount": "1250000.0",
     "vesting": "0x63991FB0B55f7536aB473417e435048BC2672B6D",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xd9688cadA30279d7C2F6B73ae82406aa79669A4a",
     "amount": "1250000.0",
     "vesting": "0xBcfD61389462E21Fdf269957242b49c15Bd0fe66",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xC03265C9a398Ff17913ad5b04DE16d9b525275D4",
     "amount": "789474.0",
     "vesting": "0x254bDCc76c38b660098cb1334EF590b65708865F",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "26316.0",
     "vesting": "0x276534b25D06272920367444d405A321369E7492",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xf070f51f0CA84B2f0fA1b7cCc1C6760C0cc2B1af",
     "amount": "394737.0",
     "vesting": "0xa03e795492316EFecf4C5903c01b3dE51aed8e8D",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xEb1D1BE2FE7291E1Ae0404FbF0405618E20eBE37",
     "amount": "210526.0",
     "vesting": "0x27Dc08a6D3E4d35aBba6ae179B9A9553e203afDd",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x91555336228b20c98589cDEd446AaBd1a3215F4F",
     "amount": "131579.0",
     "vesting": "0xEf21360d9AFe109B7310b3cfa9259306bDE6bd8E",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x83948d4d3366B32a7f56BE6B705c3Ce229a36b79",
     "amount": "83333.0",
     "vesting": "0xDeace2fC5714fe14f143cB14Aca72dE6baBc56a4",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x2299DaC5a1e31AFF58F50e5aBDb7c14E9ee0d4Aa",
     "amount": "191667.0",
     "vesting": "0x897e30913a61b9382C13cd7359F1F485eFcD4cFd",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x976e216a7aADcC6DD8fBc2B3017D8796aD3CC21d",
     "amount": "33333.0",
     "vesting": "0x465656b8De523CBE2bF54Ca086bc684304C6c65A",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x3B178D034Bb534F49a998Fe82dfb2407975C183b",
     "amount": "33333.0",
     "vesting": "0x915aB00171C5cEfF5c831189CFd1a360b5514f8A",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xfC663B8e5ec9f5DD2e358B34Ff448B564CC43ba6",
     "amount": "8333.0",
     "vesting": "0x688e57B33151AF2C4C4509528C7eAbF71a36f77A",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xDBB44026de5d4437E0a6Ca536A8840D53D2E6Bc2",
     "amount": "8333.0",
     "vesting": "0x7f3eAd1AFbECea893d9F558dbF7a861CB4dF48a9",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xfCA0c909c5Bf8fcFF8354F4360FDD45Ae2691b90",
     "amount": "8333.0",
     "vesting": "0xFCA1A8D249B6aC748d4B1c08048deA527a54B97c",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x25687b666D6A6e1b0e546F371C69F713FeFe363D",
     "amount": "16667.0",
     "vesting": "0xe11E978147a5511dbb3Baa7911f5196DB133C588",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xdc753D6dC51B095c0e9BdCc83B8F74E2C3eC6188",
     "amount": "8333.0",
     "vesting": "0x548bf06D7DcbbbA6D061e07fdD6959beb3DfAaf6",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xF91B54E99bf3c8028ffA690f664897FA0f1212C1",
     "amount": "8333.0",
     "vesting": "0xf84dc000Ba376FDAb5E97FCC7128555D6A635b13",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xB4273e47E43983DDcd840F3A1528565F7E0d80Cb",
     "amount": "8333.0",
     "vesting": "0x403e0fDAA54222921d290ccEad30431EE406f599",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x2c5976418660edC37448176BC931eB108Eeb951B",
     "amount": "8333.0",
     "vesting": "0xA7B026c736484e21630c27Be34D8760232a2A751",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x44617Ac4541C0A9323269B4eEB61a6e56DDf92ed",
     "amount": "16667.0",
     "vesting": "0x5b85cB99B0353011dc2eB2Ef186E625C96Caf8bc",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xAd4887e50Dd26079793eaF133DF48324254B51a7",
     "amount": "8333.0",
     "vesting": "0x11eC543404dAe93c4d41E2c1A457A723cA803657",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x2A0Aa8708E71960fC5358686B6CD7E95f21f2044",
     "amount": "8333.0",
     "vesting": "0xEf9A8C31379f2C7987B9739A88E7b82B7b3521E1",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xa23E10acd274FE0BF38Ff1EB7001a20a322491fD",
     "amount": "16667.0",
     "vesting": "0xeddaAdc5ab0192E0B0aFd80C0F583C5F52fCD93F",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x013e01AFB52005a4056052F17676fc1DED997D21",
     "amount": "8333.0",
     "vesting": "0x892d8D45a85A2DB8Cd75D1D5ad55ddD2bE48f9d3",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x38E06Cad1c74E5233AEd8da09F707CBCbeC2B54F",
     "amount": "8333.0",
     "vesting": "0x474429693df5324B158aC1ebf767543c7a305829",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xD6ab48A1379FE3e8E88c19857e18562a488ddf6A",
     "amount": "8333.0",
     "vesting": "0x7B60CEEaeA6Ae9BE171CA7606DC7B2d838394f94",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x0777832795d856711e8474bA63f9FAeF71467775",
     "amount": "8333.0",
     "vesting": "0x07Ae8e042A5F02ee27671737ebdCbB27D4428cfb",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x5d335A726826602c3dD775690E31e34de071F8bb",
     "amount": "8333.0",
     "vesting": "0xCf05Ccb7889635e9be7657Af9A2117cED47e0368",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x03c61dF59e2FBa81B2a45eaa769df05436E03848",
     "amount": "16667.0",
     "vesting": "0x8012a38F225a0B5e63AA39E36a76DB4d52228372",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x1f26291D81C472A2Ccfa474733E56FA5e2B13cB0",
     "amount": "50000.0",
     "vesting": "0x9C5E5CE0A8e8aA5E9329a218997c0375D131A53D",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xC37424d17B2BC9611F44d06bb428dBc286362af0",
     "amount": "16667.0",
     "vesting": "0x1Cb4c3Ba45903e5577f7fc5D2A9ee02959A1255B",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xFF8DF0759B48a3B1f73170d3573e32684Facec20",
     "amount": "16667.0",
     "vesting": "0x2a54c6d20e1a7fE0fE6d746C8AB901A193cb06c7",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xB694E4D874e4291694D8957A8905129B1449C396",
     "amount": "75000.0",
     "vesting": "0x0ce1D317F07e00f982FC8F485961ee7cE232fd3a",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x637D2E60DA55F8fAAA0c00Ed5AeA00a05383D2ca",
     "amount": "16667.0",
     "vesting": "0x60A4703Bb69B49e3DeB46532D4FD79d8fD37B2e5",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0xB9744eA3d36B2Ee72EF11aeE390B7dd8c245891F",
     "amount": "50000.0",
     "vesting": "0xF66C98Dd362263431799a03BaC968c6816990e17",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x1A7769F596890879DF7a6EeA9F4a4140e5C79bA3",
     "amount": "7500000.0",
     "vesting": "0x15AaAB5A048112eFeF276638162d2c30a9420DE0",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "1 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xb17F2B96d215d4CB589fA5BB58c6505f209da5d0",
     "amount": "8125000.0",
     "vesting": "0x66b7C01A47C752DFA1e16277ac92ED33f236fdb4",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "1 months",
+    "vestingDuration": "36 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x8CD1FCFF16B3b15c71d3C58124492b16604Dbf20",
     "amount": "59210.53",
     "vesting": "0x90fD7FF1C303C83f267381BD6E7EFE0aD8945168",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xb73cF1De70499f0b30567fEa7AF40aC09D839be8",
     "amount": "47368.42",
     "vesting": "0x121B8D0f230A158903ceEaf324ac9c7A6FA30B34",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xEF3493D26C7be6196193EfCcA351fC6771d416d2",
     "amount": "23684.21",
     "vesting": "0x176709f8fdd4Bc4B6bf1838320c4B7FCABeecD71",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xe13D0E9c4676c7960E43FAae9DB0572095Ea5591",
     "amount": "47368.42",
     "vesting": "0x18a12fd52892f4310de85d3eBf922A3e8CF55fcc",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x5785C34dF5d07b42C7F4e529fDdEC9cf39a2a97c",
     "amount": "23684.21",
     "vesting": "0x67aB044bF06b2A1c0c9F10DFeAcF60F4595dfea7",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x420d71e19D5B35b42AE8D63E81afb001a24AA73f",
     "amount": "47368.42",
     "vesting": "0x7530490355E96D02fba9090dA52E828D8ed3f0E0",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x1CC0B8435548B10459de403df762e38b9c8E789B",
     "amount": "23684.21",
     "vesting": "0xc274f519d45df957086C9336CeF4405638242272",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xc5CCAd35C72b513a02d9b19F4565D5A03C248b23",
     "amount": "11842.11",
     "vesting": "0x32e29fD06AE3ca961A98AE6Fc944B1cB204C0fdB",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xEB0A9b2275D77e4e8E69eD99045714062c4448F2",
     "amount": "11842.11",
     "vesting": "0x09b5A6f430e6E5bdFe0Ad30b1aEFEE45912ac986",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xBCa29E8DC1c0959C16AFf68e8Dbc190185384375",
     "amount": "23684.21",
     "vesting": "0xB02C6617d851B3A457d0c11FB39001E013870aFE",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x33C456904956A273E4A9789079202d48a3Bff319",
     "amount": "23684.21",
     "vesting": "0xc898fc90c05E7E74F2D7fD571139081404C3FFB0",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xBdEF1c3dE04280b3f5b18116f571f9EfA434C487",
     "amount": "35526.32",
     "vesting": "0x9AF8Ae89882943b31ebaC1e9684aD8cd9d5470b7",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x84E772ab6f4cE150D3E3E0A48F7728aB00CE6Ae2",
     "amount": "35526.32",
     "vesting": "0x2ABdCE1e77B5b04FAc269C81862D5191bCd0561F",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x26157a63Bc4C6Bd48F84f9dD210FF038bb1794aB",
     "amount": "47368.42",
     "vesting": "0x7f068dd679Bb323E079714eE1ed471198873c925",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x68A8dB214f1cb757Bc98BDBd841EE7aa55829be8",
     "amount": "47368.42",
     "vesting": "0x42ad2E9CF4348a19a0C5cE3d3F530803f5639522",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xbC0596d5728Efb0940b4f40F4e1CfB21760724e9",
     "amount": "35526.32",
     "vesting": "0x7E32E6521CE9560C5c6276384C0f984Fe3E3e89F",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x1e87cB772516984B871C7103e4559C6593c92c1A",
     "amount": "47368.42",
     "vesting": "0x7b79B817290c6c7007d40f7fea72b08169C02dDb",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x2747cAb9dD336B3E9768465CD469Bdb8C3868d5d",
     "amount": "23684.21",
     "vesting": "0xd53A0B2e1a804e487e8176928A31082CCF700f46",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x2A1F9aCfbAeD06C3cBCD71CD07f57f9924579ad6",
     "amount": "11842.11",
     "vesting": "0xC1e311740fCBc5D6B1511FAA230Fd331bACA439d",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x637D2E60DA55F8fAAA0c00Ed5AeA00a05383D2ca",
     "amount": "23684.21",
     "vesting": "0x0dCA4Baeebe7401Cf041E5e9AF42D7177F51df65",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xfCA0c909c5Bf8fcFF8354F4360FDD45Ae2691b90",
     "amount": "11842.11",
     "vesting": "0xf45EC41D20A59ebE3e0d332092c2956d7865C936",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xC37424d17B2BC9611F44d06bb428dBc286362af0",
     "amount": "23684.21",
     "vesting": "0xE73EcB9421FC56416369CF2E1a407A62625b4362",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xAd4887e50Dd26079793eaF133DF48324254B51a7",
     "amount": "11842.11",
     "vesting": "0x668d3943881D50CC071ee28Fd39e9596d3356236",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x2c5976418660edC37448176BC931eB108Eeb951B",
     "amount": "11842.11",
     "vesting": "0x94ADC8B6FABdbb2048C1783af05a592E1c153B90",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x44617Ac4541C0A9323269B4eEB61a6e56DDf92ed",
     "amount": "23684.21",
     "vesting": "0x040Aa2A89F5705A2bf24adFBC122deF261959d5e",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x1f26291D81C472A2Ccfa474733E56FA5e2B13cB0",
     "amount": "23684.21",
     "vesting": "0x853E2c40F354C3d3fEEf06E5A4e15EC4aeD29a91",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x25687b666D6A6e1b0e546F371C69F713FeFe363D",
     "amount": "23684.21",
     "vesting": "0x25dcAA49bAad07bDcE7A060B3195268aec76Ecf4",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xDBB44026de5d4437E0a6Ca536A8840D53D2E6Bc2",
     "amount": "11842.11",
     "vesting": "0xF4c7eCf3FDC1e3018d491fc00DfD066BAca56fEf",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x03c61dF59e2FBa81B2a45eaa769df05436E03848",
     "amount": "23684.21",
     "vesting": "0xC4a784E025c16d5Bc815e9dfD9AcD40C45051A2C",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xfC663B8e5ec9f5DD2e358B34Ff448B564CC43ba6",
     "amount": "11842.11",
     "vesting": "0x01f27d7A95c188F1E36487B4fbA6D15C6FD05A57",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xa23E10acd274FE0BF38Ff1EB7001a20a322491fD",
     "amount": "23684.21",
     "vesting": "0x87eEA63054eef7660b16d63aa2A438270dFEDD58",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x0777832795d856711e8474bA63f9FAeF71467775",
     "amount": "11842.11",
     "vesting": "0xF20213798fA5d92139889C2D251eeD0f6e6d9e05",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xF91B54E99bf3c8028ffA690f664897FA0f1212C1",
     "amount": "11842.11",
     "vesting": "0x27a7E133Cc7F8734F4bEF3000386853B6d44A1B9",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x013e01AFB52005a4056052F17676fc1DED997D21",
     "amount": "11842.11",
     "vesting": "0xDBa12fbabeEc73f687089E60e14e188893cDdFe6",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x2A0Aa8708E71960fC5358686B6CD7E95f21f2044",
     "amount": "11842.11",
     "vesting": "0x9E8724C554493c1B242D305559B4C253a6aA33cF",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xdc753D6dC51B095c0e9BdCc83B8F74E2C3eC6188",
     "amount": "11842.11",
     "vesting": "0x256304D78389dcaee865412658A66eD700A03cff",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x5d335A726826602c3dD775690E31e34de071F8bb",
     "amount": "11842.11",
     "vesting": "0xaB0b2AdFb14A82D09335c2C8bCE8eb9E9dC9Ae82",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x38E06Cad1c74E5233AEd8da09F707CBCbeC2B54F",
     "amount": "11842.11",
     "vesting": "0xBA6575176E62c954138FE6A3C94A6D390EDB85b7",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x3B178D034Bb534F49a998Fe82dfb2407975C183b",
     "amount": "47368.42",
     "vesting": "0xF1E175F2d3fB0Dcc5f17c51d5511A4d7BaAD0E08",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xD6ab48A1379FE3e8E88c19857e18562a488ddf6A",
     "amount": "11842.11",
     "vesting": "0xfAb36033b73d20FC25473B3E8aFa866a97A2Ec0A",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xB4273e47E43983DDcd840F3A1528565F7E0d80Cb",
     "amount": "11842.11",
     "vesting": "0x9e8883f8587F558077d045a0D012636c03a418e0",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x7862Bb3B2906F1a2cF5082bb0d0d0f2AC12026D3",
     "amount": "11842.11",
     "vesting": "0x4f80E2F4793D487Ef303e6375fe22164620be4e5",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x585ab1ef5079D02D97296636bd466D5C93f37E31",
     "amount": "23684.21",
     "vesting": "0x3eCA5A55BD3181A70E4060980497c55205dfeFf2",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xd6B1F06353Cd420e49890992DEEa43649b273e44",
     "amount": "35526.32",
     "vesting": "0x2c464B1346b7F765F82ceA8906aE15bB8fEc6B85",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x7FCE5E3d6f46C10790372e11a954455C27269835",
     "amount": "47368.42",
     "vesting": "0xdc58883a5d4F7D092CA44A44b08bfD5b7AeAbD7f",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x20F05Ec683d2Ca2Cab9baAa6D9F9EA1a2fEfD446",
     "amount": "23684.21",
     "vesting": "0xf996AE4490d2aAD56Cb0dA1ab3D860e221D53690",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xC980e5a601E6b0d3094DCF20476Dc0a1e634bF5D",
     "amount": "23684.21",
     "vesting": "0x097984287Ff5c8Cd6EF7aCD86e0dae165E14b5D4",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x83777783c59041b68ADED7C2B13dF8a8dD193650",
     "amount": "7105.26",
     "vesting": "0x308dA99d33CB2139a8E329e7dCB644f9EC9dFE22",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x86565c4565F9E1452DDEa56A46B7fD4Ea548D825",
     "amount": "11842.11",
     "vesting": "0x746202c6b3aeD271f818b23C50e516aCd80BF004",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xe74B850C92F7F4077Cca91D044af252B38d45BDF",
     "amount": "59210.53",
     "vesting": "0xf591ad3e7cCbf3B9b8e75AB01DE5f7a2014D98BD",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x148DD462b59D70862a08D1862a53CeCA2D58fB6d",
     "amount": "23684.21",
     "vesting": "0x6d963FCC6CAE611884BA0182531e58eaa3532452",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xd05679f764e526d2024258F19b49f8f747cA6922",
     "amount": "47368.42",
     "vesting": "0x5ed8E6deb2c2708C1B2dfE4Ec82d8614E3188550",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x741930644E1Db284E88318ba78f95b5B1Ab9aBC4",
     "amount": "99473.68",
     "vesting": "0x3F467797676418d08c48431D9D89C4eFAE725ab2",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x1fBDCdb786B411e0427188b048Cd43188C61E5e4",
     "amount": "47368.42",
     "vesting": "0x7FcCAbdB7738041e98F42211A6d3B0d74A30eB74",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xD1735743D466Fa93EAcb5a9b53A518b26BB270D3",
     "amount": "23684.21",
     "vesting": "0xD1426c7ce6aa071F6B726702f81f33040b355e6f",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x2364797FDA4928016e631aDf65e532a941c86AFd",
     "amount": "35526.32",
     "vesting": "0x242302966AD446c6F4134a7c028a94151Eccfe5d",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x039255900459494dfc2CA8710801e06c2c870097",
     "amount": "35526.32",
     "vesting": "0x5507849708Ec4b191E22Bbe9649d1E34044B9492",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xabc5b7565eb039C9987102C062495a598f9cca5A",
     "amount": "11842.11",
     "vesting": "0x029F9bf39f3f0d0B67431cFf3aeE5DB83a3e28ae",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xE1b96cAb6562a2546c017A20CF3409473F4eB4D2",
     "amount": "118421.05",
     "vesting": "0x272bfb20a390f48b2e0fa6dc433fA00f559340EE",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x9Ce6De0ecDceBdF18E55D0F50c7456d1ef0A1C87",
     "amount": "118421.05",
     "vesting": "0x85Ef6Cc72b485bB369ac59B8De49DcbFd5A22AAD",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xd908BD9C83b8B45f505444eba17A2535C7294dF9",
     "amount": "118421.05",
     "vesting": "0xd4E2e3cea04779E5f517b7A9f8396409a83e6949",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x00A17D77B37B70516D12B43064f3998b2a3dacDe",
     "amount": "23684.21",
     "vesting": "0x978b8B67edbF267a0Ea151B3477f411C23cd8867",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x9E8A0D9507295975BCD07De38F946c7a25327825",
     "amount": "71052.63",
     "vesting": "0x7Cc565282E1dC4501cB41f05F41bc5027Bbf8c26",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x0d35428F4C48aAb788d512dC02bB2b6Aa008dFe8",
     "amount": "1000000.0",
     "vesting": "0xbA95CeF92277Dc13E47B63bDf76A9C3280EE44E7",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "18 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xd34F6a034Ce15f956d330852d7b6B2Cf7B598B67",
     "amount": "86716.0",
     "vesting": "0x3F4F7242B47519726B0A91002E59A8e48B1906a9",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x313dC8f4cb8f0E420c5757657BE2A5B1c4Ac878A",
     "amount": "300000.0",
     "vesting": "0x503b093317B5A27f6074E32760062eb8AeBF9Db6",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x5bD70Be716376AeA94d42D06Ab901565A563cfCC",
     "amount": "5565862.71",
     "vesting": "0x321CC2658B6621bF3775c72Ed5C10638f7318507",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "3 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x5D5F31971a0aAC6b27Fb03B431Ad5aCC860D2E8d",
     "amount": "26664881.0",
     "vesting": "0xb6052F39B2036618968f01DAA3dF52E27a146892",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "3 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x0b73e83a7C330df4d100CA2e3c91f8bBFaE61659",
     "amount": "236842.0",
     "vesting": "0xDBF47C69D4bE7500B5007d21fcdfe204fc16aD0b",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0xE8d64E3EEeAbDDBe8e9A7b78210a321497c76D3c",
     "amount": "625000.0",
     "vesting": "0x5c21134A269e978739117f64654aF5041651af30",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x6a935D5Dc2772B18e3DE69d4Ca775992fB18c843",
     "amount": "52632.0",
     "vesting": "0xf35CE54ddc930b7b8284e832E6223920f23d458C",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "0 months",
+    "vestingDuration": "20 months",
+    "tgePercentage": "10.0%"
   },
   {
     "claimant": "0x40A65d57097e72C9149046508Eac98880A88a1Ca",
     "amount": "6164.38",
     "vesting": "0xb7F4a2fc2C2594eAE22eeE739C8Dd6C0D0724AB9",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   },
   {
     "claimant": "0x6857576a4af1Ef5272f45d9b8fD7A80fcAA33AcB",
     "amount": "26233.0",
     "vesting": "0x2A8EB408a892311453e9B516ad745Eb3899F68E5",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x9CA07f88057C2EC93D38670B9B433f853440E2f2",
     "amount": "16917.0",
     "vesting": "0x7B6bD728Ab12CFbc2c56C3a06ff04C9fFfDE7097",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xA925Af76AC3e53CDF727396755Eb89838484d93b",
     "amount": "6767.0",
     "vesting": "0x83EABDB2F33B43b9efE86490371aD1a80fcC7D33",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xe054d802BD5447187520DCb9584CbB845cf81566",
     "amount": "13533.0",
     "vesting": "0xCCFB4effDCa50c05BE2EfA5C659D34DF01d015c0",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xeC76059269c11FcAbbed10E92D5Cb9Ae08750c1E",
     "amount": "6767.0",
     "vesting": "0x497960dC78f5919A8A04d74D53d889Fe97C56d6D",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xb47c854E97E0354e2c9fe5c832C9cA7503195BAB",
     "amount": "10150.0",
     "vesting": "0x6DBd1b789383a6e73EA7EEA48B95d182A022af7f",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xcC36c0bb849E9C281D1eB9192BCc512a37b2b64d",
     "amount": "287583.0",
     "vesting": "0xF69C69985cF90d90BFDf334964c8577b1F3DF4B4",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0xef30564b15d11ee06063aAcfBE4f0DB84C86441A",
     "amount": "17517.0",
     "vesting": "0xAF53CD9dE293b19c6599A1397C11965Aea4DB83A",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x14d9E8CFAA2fE88C3E1EEb589B5EdFc0a1c08893",
     "amount": "23683.0",
     "vesting": "0xd293715d3047f0119FD6749eEE1d5b9A7F52D422",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "6 months",
+    "vestingDuration": "23 months",
+    "tgePercentage": "2.5%"
   },
   {
     "claimant": "0x29CAa7a393cFE67576F81A8b77A22c7880aF5501",
     "amount": "375000.0",
     "vesting": "0x249D9ba6bCeA5E03537f9221becE54d28bE9b5Bb",
-    "isSetupDone": true
+    "isSetupDone": true,
+    "cliffDuration": "15 months",
+    "vestingDuration": "24 months",
+    "tgePercentage": "0.0%"
   }
 ]
