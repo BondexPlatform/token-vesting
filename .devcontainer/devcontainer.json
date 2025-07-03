@@ -1,0 +1,54 @@
+{
+  "name": "Dev Container",
+  "image": "default-dev-env:latest", // <--- replace with your built image tag
+  "runArgs": ["--user=appuser"],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.suggestSelection": "first",
+        "editor.fontLigatures": true,
+        "editor.minimap.enabled": true,
+        "editor.bracketPairColorization.enabled": true,
+        "editor.inlineSuggest.enabled": true,
+        "editor.fontFamily": "'Hack Nerd Font', 'monospace', monospace, 'Droid Sans Fallback'",
+        "editor.fontSize": 18,
+        "editor.wordWrap": "on",
+        "editor.cursorSmoothCaretAnimation": "on",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+        "workbench.iconTheme": "vscode-icons",
+        "files.autoSave": "onFocusChange",
+        "vsicons.dontShowNewVersionMessage": true,
+        "go.formatTool": "goimports",
+        "go.useLanguageServer": true,
+        "go.toolsManagement.autoUpdate": true,
+        "[solidity]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "terminal.integrated.defaultProfile.linux": "fish"
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "dracula-theme.theme-dracula",
+        "eamodio.gitlens",
+        "editorconfig.editorconfig",
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-close-tag",
+        "github.copilot",
+        "github.copilot-chat",
+        "golang.go",
+        "ms-azuretools.vscode-containers",
+        "ms-azuretools.vscode-docker",
+        "nomicfoundation.hardhat-solidity",
+        "skyapps.fish-vscode",
+        "uctakeoff.vscode-counter",
+        "vscode-icons-team.vscode-icons",
+        "streetsidesoftware.code-spell-checker", // Code spell checker
+        "ms-python.python",               // Python support (optional)
+        "mechatroner.rainbow-csv"
+      ]
+    }
+  },
+  "forwardPorts": [3000], // Add other ports as needed
+  "features": {}
+}

@@ -9,6 +9,9 @@ type Deployment = {
     amount: string;
     vesting: string;
     isSetupDone: boolean;
+    cliffDuration?: string;
+    vestingDuration?: string;
+    tgePercentage?: string;
 };
 
 readScope
@@ -22,14 +25,28 @@ readScope
 
         const allDeployments = await factory.getAllDeployments();
 
-        let deployments: Deployment[] = allDeployments.map(
-            (deployment: any) => ({
-                claimant: deployment.claimant,
+        // Query claimant from each vesting contract's config
+        let deployments: Deployment[] = [];
+        for (const deployment of allDeployments) {
+            console.log(
+                `Querying deployment: ${deployment.vesting} for claimant and config`,
+            );
+
+            const vestingContract = await hre.ethers.getContractAt(
+                "Vesting",
+                deployment.vesting,
+            );
+            const config = await vestingContract.config();
+            deployments.push({
+                claimant: config.claimant,
                 amount: hre.ethers.formatEther(deployment.amount),
                 vesting: deployment.vesting,
                 isSetupDone: deployment.isSetupDone,
-            }),
-        );
+                cliffDuration: Number(config.cliffDuration) / 86400 / 30  + " months",
+                vestingDuration: Number(config.vestingDuration) / 86400 / 30 + " months",
+                tgePercentage: hre.ethers.formatUnits(config.tgePercentage, 4) + "%",
+            });
+        }
 
         console.log(`Total deployments: ${deployments.length}`);
 
