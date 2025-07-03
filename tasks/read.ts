@@ -22,14 +22,21 @@ readScope
 
         const allDeployments = await factory.getAllDeployments();
 
-        let deployments: Deployment[] = allDeployments.map(
-            (deployment: any) => ({
-                claimant: deployment.claimant,
+        // Query claimant from each vesting contract's config
+        let deployments: Deployment[] = [];
+        for (const deployment of allDeployments) {
+            const vestingContract = await hre.ethers.getContractAt(
+                "Vesting",
+                deployment.vesting,
+            );
+            const config = await vestingContract.config();
+            deployments.push({
+                claimant: config.claimant,
                 amount: hre.ethers.formatEther(deployment.amount),
                 vesting: deployment.vesting,
                 isSetupDone: deployment.isSetupDone,
-            }),
-        );
+            });
+        }
 
         console.log(`Total deployments: ${deployments.length}`);
 
